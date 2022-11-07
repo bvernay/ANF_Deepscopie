@@ -1,4 +1,4 @@
-![Bandeau ANF](https://gitlab.com/igbmc/mic-photon/anf_deepscopie/-/raw/main/img/Bandeau_ANF_Deepscopie.PNG)
+![Bandeau ANF](https://github.com/bvernay/ANF_Deepscopie/blob/main/img/Bandeau_ANF_Deepscopie.PNG)
 
 
 # Contexte et enjeu
