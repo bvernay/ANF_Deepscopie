@@ -1,0 +1,4384 @@
+START DAY 1
+
+13/06/2022 10:34:02
+Bonjour, Antonio Peixoto
+
+guest:c2b2dd67-d5cc-4b88-b486-7b420e5424d6
+13/06/2022 10:37:04
+non
+
+florian.wernert.professional13/06/2022 10:37:38
+en haut à droite
+
+florian.wernert.professional13/06/2022 10:37:57
+4 petits carrés
+
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 10:44:55
+Matched filter
+
+guest:4552aa30-3bdf-49c1-8cf8-4a3473f01632
+13/06/2022 10:48:56
+c'est quoi le plugin d'imageJ pour retrouver une forme ?
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 10:50:02
+Laurent Thomas
+
+pejmanrasti
+13/06/2022 10:50:48
+https://imagej.net/plugins/multi-template-matching
+
+guest:4552aa30-3bdf-49c1-8cf8-4a3473f01632
+13/06/2022 10:51:25
+merci
+
+pejmanrasti
+13/06/2022 10:51:32
+https://arxiv.org/abs/1610.02391
+
+pejmanrasti
+13/06/2022 10:52:31
+https://imagej.net/plugins/trackmate/
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 10:55:39
+Active learning
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 10:59:01
+Datacentric ai
+
+pejmanrasti
+13/06/2022 11:01:45
+https://datacentricai.org/
+
+pejmanrasti
+13/06/2022 11:02:14
+https://dl.acm.org/doi/abs/10.1145/3472291
+
+pejmanrasti
+13/06/2022 11:02:53
+https://arxiv.org/pdf/2009.00236.pdf?ref=https://githubhelp.com
+
+pejmanrasti
+13/06/2022 11:05:06
+https://arxiv.org/abs/2108.00941
+
+live:.cid.a7dc16913865d2df
+13/06/2022 11:06:00
+human-in-the-loop est un autre nom de l'active learning
+
+live:quentingiraud20
+13/06/2022 11:18:02
+Je suis dans l'equipe de jocelyn Laporte, c'est moi qui suis censé presenter.
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 10:52:01
+trackmate fait un job assez impressionant
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 11:22:48
+j'adore l'idée d'assemblage de masques
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 11:23:59
+N2V : Noise 2 Void
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 11:24:07
+Pas d'annotation.
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 11:24:17
+Pour du débruitage
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 11:24:20
+N2V pour moi prends beaucoup de temps
+
+live:.cid.41681cf2c2a9cef3
+13/06/2022 11:24:39
+Oui si pas de GPU
+
+guest:c2b2dd67-d5cc-4b88-b486-7b420e5424d6
+13/06/2022 11:27:04
+Dans nos mains, on a du mal à optimiser l'utilisation des GPU, il y a des astuces ? 
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 11:29:58
+Quantité de données : minimum quelques centaines d'instances 
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 11:30:33
+Pour le modèle, c'est quand on a un fort a priori de forme que c'est le mieux adapté.
+
+guest:66640c3e-a5f5-4aa2-bbfb-4aa81b98000c
+13/06/2022 11:31:36
+Combinaison de masques : comment est généré le masque final ?
+
+guest:afd62b9e-9466-40bc-b1eb-44d4e5a5834c
+13/06/2022 11:31:56
+Merci MAnon, j'ai une question sur l'assemblage de masque: comment le réaliser ?
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 11:32:36
+La question de Mathieu est spécifique pour Manon j'ai l'impression.
+
+florian.wernert.professional
+13/06/2022 11:29:23
+Questions non techniques sur la présentation de Manon : 
+1 à quel moment (=combien de temps à galérer) décision de sortir du model driven pour aller vers data driven ?
+2combien de temps pour tester et implémenter jusqu'à résolution du problème ?
+3 quelle quantité de données?
+
+florian.wernert.professional
+13/06/2022 11:32:37
+Questions non techniques sur la présentation de Manon : 
+1 à quel moment (=combien de temps à galérer) décision de sortir du model driven pour aller vers data driven ?
+2combien de temps pour tester et implémenter jusqu'à résolution du problème ?
+3 quelle quantité de données?
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 11:32:47
+Nous verrons la production de masque demain d'une manière plus générale.
+
+live:174e025c55c09d55
+13/06/2022 11:32:57
+@Fabrice Pour N2V, la version 3D était quasi inutilisable pour nous en effet, trop long. On entraîne en 2D et la prédiction est correcte en 3D ensuite
+
+live:174e025c55c09d55
+13/06/2022 11:36:40
+@Rémy Flores-Flores Jusqu'ici on utilisait le panel segmentation d'Amira pour rajouter les plus gros ovocytes à la main (entre 10 et 20 par images). Depuis, on a développé une macro sur Fiji. L'idée générale est d'utiliser de filtrer les masques qu'on veut ajouter à une image masque de référence, et d'utiliser une reconstruction morphologique. 
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 11:38:13
+vous avez un collab pro ?
+
+live:heloise.monnet
+13/06/2022 11:40:06
+[1655113093] Fabrice: vous avez un collab pro ?
+<<< Je ne sais pas si la question s'adresse à moi, mais non je n'ai pas colab pro
+
+live:174e025c55c09d55
+13/06/2022 11:40:23
+@Florian 1- L'idée de travailler sur les données est venue très vite, étant donné qu'on n'avait pas trop d'expérience, et que les résultats étaient déjà très satisfaisants
+
+bartuk380
+13/06/2022 11:42:37
+j ai un colab pro.
+
+live:daniel.sage_2
+13/06/2022 11:40:43
+A la question Non isotropic 3D data: une méthode deep learning est celle de restauration axiale basée sur un training avec des data dégradées artificiellement issues des plans latéraux de bonne résolution. La méthode est présentée dans CARE (M Weigert, Nat. Meth. 2018), nous essayons de l'utiliser dans d'autres contextes (imagerie ultra-son médicale) et franchement ce n'est si pas facile! 
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 11:42:34
+Cellpose, ZerocostDL4MIC, Care, Stardist,.... vous voyez que ces outils sont assez génériques ;-)
+
+guest:79deb8d8-24c2-4393-b3fb-f5c37ee4971d
+13/06/2022 11:44:12
+Comment faite vous pour extraire les informations de taille à partir de la segmentation cellpose ?
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 11:45:18
+avec les masques ou les images annotées MorpholibJ fait un super boulot
+
+live:174e025c55c09d55
+13/06/2022 11:45:27
+2- L'implementation, notamment pour le post traitement (combinaison) a bien pris quelques mois. 3- au total on a bien une 30aine d'ovaires adultes (~10Gb /ovaire), d'autres en cours. Une 40aine de larves..d'autres en cours pour d'autres projets
+
+live:174e025c55c09d55
+13/06/2022 11:46:23
+Oui on utilise morpholibJ aussi :)
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 11:46:51
+j'ai l'impression que pour l'instant on fait surtout de la segmentation et après reviennent les questions de répartition spatiale, etc
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 11:47:30
+Oui  la segmentation est très opérationnel.
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 11:47:36
+Mais aussi la classification.
+
+guest:79deb8d8-24c2-4393-b3fb-f5c37ee4971d
+13/06/2022 11:48:03
+On à testé quelques autres solutions pour sa, notamment LabelToROI et Qupath.
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 11:48:13
+Ensuite on peut retrouver une logique de pipeline avec différentes étapes de post et pré traitements
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 11:48:22
+j'imagine que vous avez du travailler avec TissueAnalyzer ?
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 11:49:33
+et surtout il y a TissueMiner après
+
+live:.cid.a7dc16913865d2df
+13/06/2022 11:50:38
+https://journals.biologists.com/dev/article/147/24/dev194589/226105/EPySeg-a-coding-free-solution-for-automated
+
+live:.cid.a7dc16913865d2df
+13/06/2022 11:50:28
+https://github.com/baigouy/EPySeg
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 11:54:14
+j'aimerai acheter un GPU externe...un vrai truc de gamer
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 11:54:33
+Typiquement minimum 3 à 5 keuros.
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 11:55:48
+en ce qui me concerne j'injecte des segmentations cellpose dans TissueAnalyzer
+
+guest:c2b2dd67-d5cc-4b88-b486-7b420e5424d6
+13/06/2022 12:01:20
+Les présentations étaient très bien, merci aux intervenants :-)
+
+live:daniel.sage_2
+13/06/2022 12:01:34
+[1655114055] Fabrice: j'aimerai acheter un GPU externe...un vrai truc de gamer
+<<< Je conseille quand même d'avoir une discussion avec un IT admin pour l'achat d'un GPU. J'ai fait beaucoup d'erreurs 1) Le GPU connecté sur un écran 2) GPU qui n'ont pas assez de RAM pour l'imagerie 3) GPU pas adapté à la machine d'accueil 4) GPU qui ne supporte pas les bonnes versions ...
+
+live:174e025c55c09d55
+13/06/2022 12:01:36
+Merci!
+
+guest:e182b0b0-bac1-443f-a31c-6d11f4e33e70
+13/06/2022 12:01:50
+Merci à tous !
+
+live:sonia.ouali_1
+13/06/2022 12:01:59
+Merci 
+
+live:6fb9dbe9e007f769
+13/06/2022 12:02:00
+merci bon appetit!
+
+guest:66640c3e-a5f5-4aa2-bbfb-4aa81b98000c
+13/06/2022 12:02:00
+merci et bon appetit
+
+florian.wernert.professional
+13/06/2022 12:02:00
+à toute :)
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 12:02:03
+yess
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 12:04:25
+
+PLAY
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 13:00:58
+en effet je ne code pas, par contre je lis le code et je sais ajuster des paramètres
+
+
+bartuk380
+13/06/2022 13:03:27
+La liste de diffusion
+
+bartuk380
+13/06/2022 13:03:28
+"anfdl4mic-mfm@services.cnrs.fr" <anfdl4mic-mfm@services.cnrs.fr>
+
+bartuk380
+13/06/2022 13:05:12
+https://rtmfm.cnrs.fr/gt/gt-maiia/
+
+bartuk380
+13/06/2022 13:05:49
+Groupe de travail du RTmfm MAIIA "Méthodes d'analyse d'images par Intelligence artificielle"
+
+live:sonia.ouali_1
+13/06/2022 13:11:07
+Moi je veux bien revenir sur le terme Epoch
+
+guest:c2b2dd67-d5cc-4b88-b486-7b420e5424d6
+13/06/2022 13:11:54
+Pour moi c'est learning rate et batch size
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 13:12:50
+c'est un paramètre d'optimisation dans le cadre d'un ill-posed problem ?
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 13:13:52
+Pour éviter l'overfitting sur apprentissage.
+
+pejmanrasti
+13/06/2022 13:15:31
+https://machinelearningmastery.com/difference-between-a-batch-and-an-epoch/
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 13:17:52
+est-ce que l'echantillonnage des données permet d'optimiser le besoin en ressources de calcul
+
+florian.wernert.professional
+13/06/2022 13:18:22
+est ce que le learning rate peut être variable pendant l'apprentissage ?
+
+florian.wernert.professional
+13/06/2022 13:18:34
+est ce que le learning rate peut être variable pendant l'apprentissage ?
+
+pejmanrasti
+13/06/2022 13:18:31
+oui
+pejmanrasti
+13/06/2022 13:19:01
+https://medium.com/analytics-vidhya/learning-rate-decay-and-methods-in-deep-learning-2cee564f910b#:~:text=Learning%20rate%20decay%20is%20a,help%20both%20optimization%20and%20generalization.
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 13:20:03
+a t-on intérêt à procéder de manière iterative
+IMG_01
+
+live:.cid.6d4da05a5aab1e02
+13/06/2022 13:20:32
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 13:21:34
+OPening the black box deep learning
+
+pejmanrasti
+13/06/2022 13:21:56
+https://arxiv.org/abs/1703.00810
+
+live:daniel.sage_2
+13/06/2022 13:22:11
+[1655119073] Fabrice: est-ce que l'echantillonnage des données permet d'optimiser le besoin en ressources de calcul
+
+<<< Qu'est ce que vous entendez par échantillonnage des données? est-ce que c'est la résolution, l'échelle des images?
+
+
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 13:25:06
+en première instance j'avais chargé des images complètes 10024*900 ... ensuite j'ai réduit , etc ...
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 13:25:23
+CO2
+
+pejmanrasti
+13/06/2022 13:28:28
+https://arxiv.org/pdf/1908.06477.pdf
+
+live:felix.mercier13/06/2022 13:30:23
+
+pejmanrasti
+13/06/2022 13:24:43
+https://arxiv.org/abs/1804.07612
+
+Félix, 13:30
+IMG_02
+
+live:jessica.perez.sancho
+13/06/2022 13:33:26
+pour moi le lien ne marchait pas. est-ce que quelqu'un peut repartager?
+
+florian.wernert.professional
+13/06/2022 13:33:50
+Fallet ton micro est ouvert
+
+bartuk380
+13/06/2022 13:34:05
+https://
+drive.google.com/file/d/1Nw5IdFe6Rk6UG8how_Ff_KGW67QxHwR4/view?
+usp=sharing
+
+live:sonia.ouali_1
+13/06/2022 13:34:23
+On peut utiliser jupyter ?
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 13:34:51
+pas transféré pour l'instant
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 13:36:08
+@sonia : préférer Colab pour rester synchro avec nous
+
+live:.cid.6d4da05a5aab1e02
+13/06/2022 13:36:22
+[1655120064] sonia ouali: On peut utiliser jupyter ?
+
+<<< oui mais pas en local, on va faire tourner le code, sur googlecolab
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 13:37:09
+@sonia sinon il. faudrait faire toute une installation sur ton ordinateur... comme dans la vidéo installation party que j'ai mis dans le slack ce midi. 
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 13:37:15
+
+PLAY
+
+
+guest:c2b2dd67-d5cc-4b88-b486-7b420e5424d6
+13/06/2022 13:37:55
+non
+
+guest:c2b2dd67-d5cc-4b88-b486-7b420e5424d6
+13/06/2022 13:38:02
+ça téélcharge, c'est un peu long
+
+lycilph99
+13/06/2022 13:38:12
+en cours
+
+florian.wernert.professional
+13/06/2022 13:38:38
+data.zip c'est bien pour demain ?
+
+florian.wernert.professional
+13/06/2022 13:38:49
+sinon 327 Mo ça va être long
+
+guest:66640c3e-a5f5-4aa2-bbfb-4aa81b98000c
+13/06/2022 13:38:51
+c'est bon pour moi. Comme Daniel, mes notebook sont à la racine
+
+live:felix.mercier
+13/06/2022 13:39:26
+1_Mnist_DL_Example (1).ipynb
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 13:39:56
+là j'ai tout sauf les raw data
+
+live:juliette.moreau
+13/06/2022 13:39:54
+[1655120319] Florian Wernert: data.zip c'est bien pour demain ?
+
+<<< Ca servira aussi pour le deuxième TP du jour mais ce n'est pas nécessaire pour démarrer
+
+live:valentin.gilet_1
+13/06/2022 13:40:43
+Vous pouvez mettre les data.zip à télécharger en fond pendant le premier TP
+
+live:felix.mercier
+13/06/2022 13:41:03
+https://ngrok.com/
+
+guest:c2b2dd67-d5cc-4b88-b486-7b420e5424d6
+13/06/2022 13:41:19
+presque
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 13:41:22
+ok
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 13:41:24
+oui
+
+guest:6d65461f-fc00-489e-8928-f1d12b3e1a7f
+13/06/2022 13:41:28
+oui
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 13:41:33
+ok pour moi
+
+live:sonia.ouali_1
+13/06/2022 13:42:12
+ok pour moi
+
+guest:947952ec-ff6b-4765-b137-ffe4577a28d8
+13/06/2022 13:42:26
+j'ai un soucis , je ne peux pas accéder à ngrok depuis mon institut .. 
+
+vince2505
+13/06/2022 13:42:54
+
+PLAY
+
+live:valentin.gilet_1
+13/06/2022 13:43:19
+ngrok sera utile pour un certain outil de visualisation, mais on a prévu un autre moyen de visualiser les courbes au cas où !
+
+guest:947952ec-ff6b-4765-b137-ffe4577a28d8
+13/06/2022 13:43:31
+ok merci !
+
+live:mathieu.fallet
+13/06/2022 13:43:57
+parfait ngrok semble aussi boqué chez moi
+
+lycilph99
+13/06/2022 13:44:43
+ok
+
+guest:c2b2dd67-d5cc-4b88-b486-7b420e5424d6
+13/06/2022 13:44:42
+ok
+
+live:6fb9dbe9e007f769
+13/06/2022 13:44:49
+ok
+
+guest:42f0969a-28cb-4ea4-ac6b-3a81f7e94019
+13/06/2022 13:44:49
+ok
+
+vince2505
+13/06/2022 13:44:53
+Ok
+
+live:mathieu.fallet
+13/06/2022 13:44:57
+ok
+
+florian.wernert.professional
+13/06/2022 13:44:59
+ok
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 13:45:01
+tout bon sauf ngrok
+
+guest:12fc2f10-662e-459d-a9fa-d2d963a6f857
+13/06/2022 13:45:04
+ok
+
+live:.cid.a7dc16913865d2df
+13/06/2022 13:45:05
+le compte ngrok doit il être le même compte google utilisé pour se servir des notebooks?
+
+guest:34ab4d80-ba1e-4606-91b5-98be56eed43c
+13/06/2022 13:45:06
+ok
+
+guest:66640c3e-a5f5-4aa2-bbfb-4aa81b98000c
+13/06/2022 13:45:15
+ok
+
+guest:c2b2dd67-d5cc-4b88-b486-7b420e5424d6
+13/06/2022 13:45:16
+pour ngrock, on met son adresse gmail ?
+
+live:.cid.a7dc16913865d2df
+13/06/2022 13:45:21
+ok
+
+guest:947952ec-ff6b-4765-b137-ffe4577a28d8
+13/06/2022 13:45:26
+ok sauf ngrok
+
+live:6fb9dbe9e007f769
+13/06/2022 13:45:37
+pas possible pour ngrok non plus
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 13:47:06
+ca y est j'ai ouvert le notebook
+
+lycilph99
+13/06/2022 13:47:14
+c'est bon
+
+herearii.metuarea5
+13/06/2022 13:47:28
+
+herearii.metuarea5
+13/06/2022 13:47:28
+IMG_03
+pour ngork, il permet la visualisation des courbes loss et d'apprentissage du modèle. un exemple dans cette capture d'écran
+
+guest:66640c3e-a5f5-4aa2-bbfb-4aa81b98000c
+13/06/2022 13:47:22
+ok pour moi
+
+guest:947952ec-ff6b-4765-b137-ffe4577a28d8
+13/06/2022 13:47:26
+c'est bon pour moi aussi
+
+guest:42f0969a-28cb-4ea4-ac6b-3a81f7e94019
+13/06/2022 13:47:38
+OK pour moi
+
+guest:c2b2dd67-d5cc-4b88-b486-7b420e5424d6
+13/06/2022 13:47:57
+c'est en cours
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 13:48:05
+ok
+
+live:6fb9dbe9e007f769
+13/06/2022 13:48:10
+ok
+
+guest:c2b2dd67-d5cc-4b88-b486-7b420e5424d6
+13/06/2022 13:48:04
+c'est bon !
+
+florian.wernert.professional
+13/06/2022 13:48:16
+tout bon
+
+guest:6d65461f-fc00-489e-8928-f1d12b3e1a7f
+13/06/2022 13:48:16
+c'est bon
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 13:48:25
+ok
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 13:48:28
+ok
+
+guest:12fc2f10-662e-459d-a9fa-d2d963a6f857
+13/06/2022 13:48:52
+j'ai chargé deux notes books et je ne trouve plus le premier ...
+
+guest:12fc2f10-662e-459d-a9fa-d2d963a6f857
+13/06/2022 13:49:10
+non
+
+guest:12fc2f10-662e-459d-a9fa-d2d963a6f857
+13/06/2022 13:49:21
+dans collab
+
+live:jessica.perez.sancho
+13/06/2022 13:50:34
+j'ai déjà telechargé le colab, mais il ne aparaitre pas encore dans la liste ouvrir avec
+
+guest:12fc2f10-662e-459d-a9fa-d2d963a6f857
+13/06/2022 13:50:26
+ok
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 13:52:00
+
+16551211206778:guest:f00a1864-57f2-41d7-8fab-38c56747c9488:guest:f00a1864-57f2-41d7-8fab-38c56747c948
+
+guest:6d65461f-fc00-489e-8928-f1d12b3e1a7f
+13/06/2022 13:51:58
+moi je suis passé par importer
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 13:53:00
+https://www.youtube.com/watch?v=OH3VKI7ErAE&t=572s
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 13:54:49
+Paperwithcode
+
+live:valentin.gilet_1
+13/06/2022 13:55:16
+https://paperswithcode.com/
+
+bartuk380
+13/06/2022 13:55:21
+https://paperswithcode.com/
+
+lycilph99
+13/06/2022 13:58:53
+Je n'ai pas accès au notebook:"Ensure that you have permission to view this notebook in GitHub and authorise Colaboratory to use the GitHub API."
+
+lycilph99
+13/06/2022 13:59:26
+par le drive
+
+lycilph99
+13/06/2022 13:59:51
+c'est ça
+
+lycilph99
+13/06/2022 14:00:15
+c'esr bon
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 14:00:32
+nickel
+
+guest:947952ec-ff6b-4765-b137-ffe4577a28d8
+13/06/2022 14:00:33
+oui
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 14:00:35
+ok
+
+guest:66640c3e-a5f5-4aa2-bbfb-4aa81b98000c
+13/06/2022 14:00:35
+c'est bon
+
+lycilph99
+13/06/2022 14:00:37
+ok
+
+bartuk380
+13/06/2022 14:01:30
+faire une copy du notebook c est aussi une bonne idee pour eviter les betises et la sauvegarde automatique
+
+pejmanrasti
+13/06/2022 14:02:33
+https://www.google.com/search?q=mnist&oq=mnist&aqs=chrome..69i57j0i512l6j69i60.2923j0j4&sourceid=chrome&ie=UTF-8
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 14:03:42
+en effet je n'ai pas les mêmes images ;)
+
+bartuk380
+13/06/2022 14:04:03
+tu peux les jouer au lotto :-)
+
+vince2505
+13/06/2022 14:04:20
+Comment être sûr d'avoir toutes les librairies lorsque l'on crée son propre code ou que l'on adapte un code à ses données ?
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 14:04:22
+iris, c'est pas plutôt dans R :)
+
+live:valentin.gilet_1
+13/06/2022 14:05:56
+Iris est aussi utilisé sur Python ! https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
+
+bartuk380
+13/06/2022 14:06:32
+pas de classification dimages dans ZeroCostDl4Mic si je ne trompe pas
+
+lycilph99
+13/06/2022 14:06:35
+ok
+
+guest:6d65461f-fc00-489e-8928-f1d12b3e1a7f
+13/06/2022 14:06:38
+oui
+
+live:6fb9dbe9e007f769
+13/06/2022 14:06:39
+oui
+
+guest:42f0969a-28cb-4ea4-ac6b-3a81f7e94019
+13/06/2022 14:06:43
+oui
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 14:06:46
+en effet je ne crois pas que nous allons tous nous mettre à coder
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 14:06:46
+pas de problème
+florian.wernert.professional13/06/2022 14:06:51
+(ok)
+
+bartuk380
+13/06/2022 14:07:39
+Quentin
+
+bartuk380
+13/06/2022 14:07:31
+exemple des fibres musculaire de quention ce matin
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:08:35
+Les convolutions sont-elles 1D ou 2D après cela ? On va perdre de l’info si l’on fait une convolution 1D, non ? Ou alors pas de conv dans cet exemple ?
+
+live:valentin.gilet_1
+13/06/2022 14:08:49
+Pas de convolution ici
+
+live:valentin.gilet_1
+13/06/2022 14:09:03
+ça sera pour le CNN ;-) 
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:09:08
+ok
+
+bartuk380
+13/06/2022 14:09:35
+mise en forme: j'ai des images de taille differentes (matrices carrees ou rectangulaires) je normalise leur tailles 150x150 par exemple. quelle est l'influence du resizing sur l'apprentissage
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 14:10:23
+dense(10) ?
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 14:10:29
+est ce qu'il ya des criteres pour savoir s'il on a le droit de transformer une image 2d en 1D
+
+herearii.metuarea5
+13/06/2022 14:11:02
+dense(10) = une couche de 10 neurones
+
+live:valentin.gilet_1
+13/06/2022 14:11:03
+[1655122223] Fabrice: dense(10) ?
+
+<<< C'est le nombre de neurones : 10 ici car on essaie de classer 10 chiffres
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 14:11:25
+oui
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:10:59
+c'est OK si on fait que du fully connected j'imagine
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:11:35
+c'est OK si on fait que du fully connected j'imagine
+
+live:valentin.gilet_1
+13/06/2022 14:11:41
+[1655122230] Isabelle Bihannic: est ce qu'il ya des criteres pour savoir s'il on a le droit de transformer une image 2d en 1D
+
+<<< Pas de critère, on étale simplement les pixels afin de n'en faire qu'une seule ligne
+
+guest:34ab4d80-ba1e-4606-91b5-98be56eed43c
+13/06/2022 14:14:29
+A quoi correspondent les features du playground ?
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 14:14:37
+Felix, tes explications sont très clairs, merci
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:14:47
+oui
+
+guest:34ab4d80-ba1e-4606-91b5-98be56eed43c
+13/06/2022 14:14:55
+Les filtres ne sont pas appris automatiquement en deep learning ?
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 14:16:29
+là on va de 0 à 9 , mais comment on va savoir quoi mettre dans nos problématiques
+
+guest:870e00fc-685f-4f9e-8b2d-0c11df824201
+13/06/2022 14:16:49
+par rrapport à la densité
+
+live:.cid.6d4da05a5aab1e02
+13/06/2022 14:21:02
+[1655122176] Bertrand Vernay: mise en forme: j'ai des images de taille differentes (matrices carrees ou rectangulaires) je normalise leur tailles 150x150 par exemple. quelle est l'influence du resizing sur l'apprentissage
+
+<<< l'impact d'un coté c'est le le nombre de paramètre du modèle, et avoir une résolution d'image on trouvera des millions de paramètres, en plus de ça, y'a aussi le temps d'entraînement sera grand
+
+guest:4dd87c91-1886-4bda-8488-252e2527af11
+13/06/2022 14:22:26
+@bertrand et @Adnane oui Adnane mais ici il y a aussi l'idée qu'on déforme les formes en passant du rectangle au carré.
+
+guest:66640c3e-a5f5-4aa2-bbfb-4aa81b98000c
+13/06/2022 14:23:05
+ok
+
+bartuk38013/06/2022 14:23:29
+merci. c etait le sens de ma question, l influence de la deformation sur les capacites du reseau (surtout convolution) à reconnaitres les classes
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 14:24:20
+
+16551230601128:guest:b9bbd665-6fe4-4991-babf-38e41f23d55e8:guest:b9bbd665-6fe4-4991-babf-38e41f23d55e
+
+guest:c2b2dd67-d5cc-4b88-b486-7b420e5424d6
+13/06/2022 14:24:41
+pas bon pour ngrock
+
+live:6fb9dbe9e007f769
+13/06/2022 14:24:50
+voie B
+
+guest:947952ec-ff6b-4765-b137-ffe4577a28d8
+13/06/2022 14:24:55
+moi non plus
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:25:09
+j'ai ERROR:  Unrecognized command: 2AWLlsKIGG1eRPg61uEXGBd28jW_88URtrmhjWaeo5PDTJUR1
+
+guest:66640c3e-a5f5-4aa2-bbfb-4aa81b98000c
+13/06/2022 14:25:26
+oui
+
+florian.wernert.professional
+13/06/2022 14:25:33
+oui ça s'execute
+
+lycilph99
+13/06/2022 14:25:51
+ok
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 14:25:52
+oui
+
+guest:b9bbd665-6fe4-4991-babf-38e41f23d55e
+13/06/2022 14:25:58
+j'ai été deconnecté on n est ou
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 14:26:21
+
+16551231811238:guest:2105c4e4-f888-4978-8c2f-7694c80c81948:guest:2105c4e4-f888-4978-8c2f-7694c80c8194
+
+guest:b9bbd665-6fe4-4991-babf-38e41f23d55e
+13/06/2022 14:26:30
+ok c'est bon
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:26:54
+help, j'ai raté la dernière minute
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 14:27:01
+
+16551232214088:guest:b03729d6-7b40-406e-9e6f-88817b9ec99e8:guest:b03729d6-7b40-406e-9e6f-88817b9ec99e
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:27:05
+je fais quoi avec ngrok ?
+
+guest:b03729d6-7b40-406e-9e6f-88817b9ec99e
+13/06/2022 14:27:13
+
+16551232334068:guest:b03729d6-7b40-406e-9e6f-88817b9ec99e
+
+florian.wernert.professional
+13/06/2022 14:27:14
+Loïc lance la cellule avec écrite ngrok
+
+florian.wernert.professional13/06/2022 14:27:20
+ça va te faire une erreur mais c'est ok
+
+breuilly.marine
+13/06/2022 14:25:10
+La "loss" = fonction de cout "categorical crossentropy" est utilisée pour faire de la classification avec plusieurs classes possibles >2 . quand il n'y a que 2 classes, la fonction utilisée est "binary crossentropy"
+
+herearii.metuarea5
+13/06/2022 14:27:31
+le mettree en commentaire en insérant #
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:27:31
+ok
+
+guest:b9bbd665-6fe4-4991-babf-38e41f23d55e
+13/06/2022 14:27:38
+yep je n'ai pas le history
+
+lycilph99
+13/06/2022 14:27:49
+non
+
+guest:b9bbd665-6fe4-4991-babf-38e41f23d55e
+13/06/2022 14:27:51
+non
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:28:22
+la cellule history plante dans mon cas
+
+guest:b9bbd665-6fe4-4991-babf-38e41f23d55e
+13/06/2022 14:28:23
+non plus
+
+guest:bb74f066-5101-406f-9b8b-9b7500664150
+13/06/2022 14:28:23
+Pas history non plus ...
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 14:28:33
+
+16551233131048:guest:958650b9-41f8-4e4c-8d46-8f350c5883988:guest:958650b9-41f8-4e4c-8d46-8f350c588398
+
+vince2505
+13/06/2022 14:28:37
+Pas history non plus
+
+guest:66640c3e-a5f5-4aa2-bbfb-4aa81b98000c
+13/06/2022 14:28:40
+j'ai history
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 14:28:45
+
+16551233251838:guest:b8641e87-4e09-4d52-b8c7-f09c9e0901988:guest:b8641e87-4e09-4d52-b8c7-f09c9e090198
+
+live:felix.mercier
+13/06/2022 14:28:52
+history = model.fit(X_train, Y_train, 
+          validation_data=(X_val, Y_val),
+          epochs=5, batch_size=32,
+          verbose=1,
+          callbacks=[TensorBoardColabCallback(tbc)])
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:28:55
+j'ai le texte mais ca plante
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:29:09
+AttributeError                            Traceback (most recent call last)
+ in ()
+      3           epochs=5, batch_size=32,
+      4           verbose=1,
+----> 5           callbacks=[TensorBoardColabCallback(tbc)])
+
+lycilph9913/06/2022 14:29:29
+AttributeError
+
+florian.wernert.professional
+13/06/2022 14:29:36
+vous avez peut être oublié d'executer des cellules avant si vous avez des erreurs
+
+florian.wernert.professional
+13/06/2022 14:29:54
+les cellules avec les imports
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 14:30:01
+
+16551234017698:guest:752c0a69-809d-4164-828c-903ec7a7ee998:guest:752c0a69-809d-4164-828c-903ec7a7ee99
+live:6fb9dbe9e007f769
+13/06/2022 14:30:06
+oui
+
+guest:79deb8d8-24c2-4393-b3fb-f5c37ee4971d
+13/06/2022 14:30:09
+erreur: AttributeError: module 'tensorboard.summary._tf.summary' has no attribute 'FileWriter'
+
+guest:b03729d6-7b40-406e-9e6f-88817b9ec99e
+13/06/2022 14:30:09
+oui
+
+guest:12fc2f10-662e-459d-a9fa-d2d963a6f857
+13/06/2022 14:30:10
+oui
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 14:30:11
+oui ça marche
+
+guest:752c0a69-809d-4164-828c-903ec7a7ee99
+13/06/2022 14:30:14
+
+16551249908508:guest:752c0a69-809d-4164-828c-903ec7a7ee99
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 14:30:16
+c'est bon
+
+florian.wernert.professional
+13/06/2022 14:30:20
+oui ça fonctionne
+
+live:sonia.ouali_1
+13/06/2022 14:30:00
+J'ai une question par rapport au x_train et y_train, le premier élément de y-train correspond au label du premier élément de x_train ? 
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 14:30:33
+
+16551234334748:guest:057a84dc-8fc5-4655-8975-22ef47d5c8b38:guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+
+guest:958650b9-41f8-4e4c-8d46-8f350c588398
+13/06/2022 14:30:34
+J'ai dû me reconnecter, problème de réseau, du coup il me manque 5 min de discussion. On en est où? (désolée)
+
+live:sonia.ouali_1
+13/06/2022 14:30:47
+merci 
+
+bartuk380
+13/06/2022 14:30:51
+Gabriel  les imports on ete faits?
+
+guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+13/06/2022 14:30:53
+
+16551234532578:guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+
+guest:dcbedbd3-6a6e-4f77-9259-c54a180f2db5
+13/06/2022 14:30:55
+Gabriel As-tu exécuté les lignes tout en haut?
+
+live:sonia.ouali_1
+13/06/2022 14:31:07
+très clair
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:31:12
+toujours l'erreur
+
+florian.wernert.professional
+13/06/2022 14:31:19
+pour les personnes qui ont des erreurs, essayez d'executer à nouveau toutes les cellules avant, surtout si vous avez été déconnectés
+
+guest:79deb8d8-24c2-4393-b3fb-f5c37ee4971d
+13/06/2022 14:31:43
+J'ai bien tout lancer
+
+guest:79deb8d8-24c2-4393-b3fb-f5c37ee4971d
+13/06/2022 14:31:46
+Je retente
+
+lycilph99
+13/06/2022 14:32:05
+pareil
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:32:11
+AttributeError                            Traceback (most recent call last)
+ in ()
+
+guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+13/06/2022 14:32:48
+je pense que celles et ceux qui n'ont pas History utilisent la premiere version du notebook
+
+live:.cid.6d4da05a5aab1e02
+13/06/2022 14:32:49
+[1655123435] Utilisateur invité: J'ai dû me reconnecter, problème de réseau, du coup il me manque 5 min de discussion. On en est où? (désolée)
+
+<<< on est en section Train the model, vous pouvez executer les cellules avant, depuis votre interemption, si vous avez une rreur, faites nous signe 
+
+live:6fb9dbe9e007f769
+13/06/2022 14:32:55
+verbose; c'est quoi déjà? 
+
+florian.wernert.professional
+13/06/2022 14:33:33
+Claire verbose ça va te donner davantage de message qui te disent ce qui se passe
+
+florian.wernert.professional
+13/06/2022 14:33:23
+Claire verbose ça va te donner davantage de message qui te disent ce qui se passe
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 14:33:37
+il y a des regles pour savoir combien choisir d'epochs, la taille du batch...etc...
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 14:34:30
+
+16551236700288:guest:4019405d-4bea-483d-85fd-1fccadd421808:guest:4019405d-4bea-483d-85fd-1fccadd42180
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 14:34:39
+
+16551236794518:guest:62df875e-24f3-4c3e-b9c2-5b9825825eef8:guest:62df875e-24f3-4c3e-b9c2-5b9825825eef
+
+guest:752c0a69-809d-4164-828c-903ec7a7ee99
+13/06/2022 14:34:08
+Verbose = 0,1,2 règle le niveau de feedback que tu as sur le programme en train de tourner.
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 14:34:42
+
+16551236820948:guest:4019405d-4bea-483d-85fd-1fccadd42180
+
+pejmanrasti
+13/06/2022 14:35:06
+history = model.fit(X_train, Y_train, 
+          validation_data=(X_val, Y_val),
+          epochs=5, batch_size=32,
+          verbose=1)
+
+live:abadoual_2
+13/06/2022 14:35:37
+[1655123569] Mathieu Vigneau: je pense que celles et ceux qui n'ont pas History utilisent la premiere version du notebook
+
+<<< En effet je crois que sur le google drive il y a les anciennes versions des notebooks. Il faut bien prendre les versions données ce matin dans slack
+
+guest:62df875e-24f3-4c3e-b9c2-5b9825825eef
+13/06/2022 14:35:50
+J'ai relancer mais toujours la même erreur
+
+guest:34ab4d80-ba1e-4606-91b5-98be56eed43c
+13/06/2022 14:35:53
+Sur cette ligne : callbacks=[TensorBoardColabCallback(tbc)], j'ai cette erreur : module 'tensorboard.summary._tf.summary' has no attribute 'FileWriter'
+
+pejmanrasti
+13/06/2022 14:35:56
+https://arxiv.org/abs/1804.07612
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:36:20
+j'ai historry, h'ai relancé, et j'ai toujours l'erreur au moment de lancer la cellule history
+
+live:valentin.gilet_1
+13/06/2022 14:36:25
+To view this file, go to: https://login.skype.com/login/sso?go=webclient.xmm&docid=0-weu-d10-cbef5bfb29e657fc8de8454556bdc96d
+
+bartuk380
+13/06/2022 14:36:29
+la bonne version du notebook
+
+bartuk380
+13/06/2022 14:36:31
+https://drive.google.com/file/d/1U47wq0_X0gx7MhraGnq9UXe_jjGjgvhz/view?usp=sharing
+
+bartuk380
+13/06/2022 14:37:04
+Loïc Le Goff tu m'envoie une capture d ecran sur le slack
+
+live:.cid.6d4da05a5aab1e02
+13/06/2022 14:37:06
+[1655123754] Rémy: Sur cette ligne : callbacks=[TensorBoardColabCallback(tbc)], j'ai cette erreur : module 'tensorboard.summary._tf.summary' has no attribute 'FileWriter'
+
+<<< c'est lié a la celle ngrok, est ce que cette derniere est bien execeuter ?
+
+pejmanrasti
+13/06/2022 14:37:09
+[1655123754] Rémy: Sur cette ligne : callbacks=[TensorBoardColabCallback(tbc)], j'ai cette erreur : module 'tensorboard.summary._tf.summary' has no attribute 'FileWriter'
+
+<<< history = model.fit(X_train, Y_train, 
+          validation_data=(X_val, Y_val),
+          epochs=5, batch_size=32,
+          verbose=1)
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 14:37:21
+Comment savoir quant on a un batch trop gros ?
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 14:38:49
+Faut charger jusqu'a saturation ou presque pour etre optimal alors ?
+
+guest:958650b9-41f8-4e4c-8d46-8f350c588398
+13/06/2022 14:39:01
+est-ce qu'il y a un intérêt 
+à avoir un batch de grande taille ?
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 14:39:13
+Merci ;)
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:39:20
+ou ca dans slack
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:39:22
+?
+
+guest:62df875e-24f3-4c3e-b9c2-5b9825825eef
+13/06/2022 14:39:51
+Tu as bien mit la dernière ligne en commentaire ?
+
+lycilph99
+13/06/2022 14:40:00
+j'ai un erreur aussi dans Train model
+
+lycilph99
+13/06/2022 14:40:01
+  File "", line 5
+    #callbacks=[TensorBoardColabCallback(tbc)])
+                                               ^
+SyntaxError: unexpected EOF while parsing
+
+lycilph99
+13/06/2022 14:40:14
+oui
+
+live:.cid.41681cf2c2a9cef3
+13/06/2022 14:40:52
+de combien doit on augmenter ne nombre d'epochs si on divise par 2 le batch size?
+
+lycilph99
+13/06/2022 14:40:58
+j'ai trouvé une coquille dans la cellule
+
+lycilph99
+13/06/2022 14:41:12
+il faut ajoute rle parenthese
+
+lycilph99
+13/06/2022 14:41:18
+et ça marche
+
+live:.cid.41681cf2c2a9cef3
+13/06/2022 14:42:58
+ok merci!
+
+lycilph99
+13/06/2022 14:43:11
+ok
+
+guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+13/06/2022 14:43:12
+oui
+
+live:6fb9dbe9e007f769
+13/06/2022 14:43:13
+oui
+
+guest:b03729d6-7b40-406e-9e6f-88817b9ec99e
+13/06/2022 14:43:14
+oui
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 14:43:14
+oui
+
+florian.wernert.professional
+13/06/2022 14:43:15
+oui
+
+guest:b8641e87-4e09-4d52-b8c7-f09c9e090198
+13/06/2022 14:43:17
+oui
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:43:18
+ok
+
+bartuk380
+13/06/2022 14:45:12
+les capture d'ecran peuvent etre directement coller dans le canal slack "au-secours"
+
+guest:958650b9-41f8-4e4c-8d46-8f350c588398
+13/06/2022 14:45:38
+est-ce qu'il y a un intérêt à faire tourner plusieurs fois le training sur le même jeu de données ?
+
+bartuk380
+13/06/2022 14:45:50
+je dirais oui
+
+bartuk380
+13/06/2022 14:46:04
+jour 3?
+
+guest:62df875e-24f3-4c3e-b9c2-5b9825825eef
+13/06/2022 14:46:22
+j'ai juste un message d'erreur: AttributeError: 'tuple' object has no attribute 'history'
+
+live:.cid.a7dc16913865d2df
+13/06/2022 14:46:40
+si je peux faire le "bad cop" aussi: c'est quoi une "belle courbe"?
+
+guest:b9bbd665-6fe4-4991-babf-38e41f23d55e
+13/06/2022 14:46:43
+j'ai pas les plots
+
+bartuk380
+13/06/2022 14:47:16
+gabriel: peux tu sauver le notebook et me l'envoyer ? vernayb@igbmc.fr
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 14:48:02
+est ce qu'il faut viser accuracy val = accuracy entrainement?
+
+guest:b03729d6-7b40-406e-9e6f-88817b9ec99e
+13/06/2022 14:48:05
+est ce qu'il y a des critères de validation pour valider le modèle et les courbes obtenues ? 
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 14:48:25
+Je n'ai pas les plots non plus. je crois qu'il me manque cette partie du code
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:50:24
+j'ai une erreur sur le plot de accuracy: KeyError: 'val_acc'
+
+guest:34ab4d80-ba1e-4606-91b5-98be56eed43c
+13/06/2022 14:50:25
+Quel est le paramètre pour modifier le learning rate ?
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:51:19
+quand je mets la ligne en commentaire c'est bon
+
+vince2505
+13/06/2022 14:51:23
+par curiosité : verbose=1 ?
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 14:51:41
+oui
+
+guest:752c0a69-809d-4164-828c-903ec7a7ee99
+13/06/2022 14:52:23
+https://www.youtube.com/watch?v=hbaKWqj8MZ8&feature=youtu.be
+
+pejmanrasti
+13/06/2022 14:52:47
+LR default = 0.01
+
+live:valentin.gilet_1
+13/06/2022 14:49:00
+plt.figure(figsize=(15,6))
+plt.subplot(121)
+plt.title('Loss')
+plt.plot(history.history['val_loss'], label='val_loss')
+plt.plot(history.history['loss'], label='loss')
+#plt.ylim([0.5,1.5])
+plt.grid()
+plt.legend()
+plt.subplot(122)
+plt.title('Accuracy')
+plt.plot(history.history['val_acc'], label='val_acc')
+plt.plot(history.history['acc'], label='acc')
+#plt.ylim([0,1])
+plt.grid()
+plt.legend()
+
+vince2505
+13/06/2022 14:53:02
+Oui ok, merci
+
+guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+13/06/2022 14:55:39
+si on relance plusieurs fois le training, l'accuracy stagne effectivement aux alentours de 0.94
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 14:55:42
+val loss reste stabla alors que loss tend vers 0 est ce normal ?
+
+bartuk380
+13/06/2022 14:55:49
+Gabriel  remplace verbose=1), par verbose=1). la virgule pose le problème
+
+live:.cid.6d4da05a5aab1e02
+13/06/2022 14:56:00
+erreur de frappe: Test Loss
+
+guest:b9bbd665-6fe4-4991-babf-38e41f23d55e
+13/06/2022 14:56:01
+bien que je n'ai pas les plots, j'ai les valeurs : 0.26 et 0.92 , c'est pas exactement la même chose
+
+bartuk380
+13/06/2022 14:56:02
+history = model.fit(X_train, Y_train, 
+          validation_data=(X_val, Y_val),
+          epochs=5, batch_size=32,
+          verbose=1)
+          #callbacks=[TensorBoardColabCallback(tbc)])
+
+live:jessica.perez.sancho
+13/06/2022 14:56:44
+je n'arrive pas a des plateaus
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 14:56:45
+Merci !
+
+live:jessica.perez.sancho
+13/06/2022 14:56:48
+IMG_04
+
+guest:958650b9-41f8-4e4c-8d46-8f350c588398
+13/06/2022 14:57:16
+Moi j'ai une erreur quand j'essaie de faire les plot
+
+guest:958650b9-41f8-4e4c-8d46-8f350c588398
+13/06/2022 14:57:20
+NameError                                 Traceback (most recent call last)
+
+ in ()
+      2 plt.subplot(121)
+      3 plt.title('Loss')
+----> 4 plt.plot(history.history['val_loss'], label='val_loss')
+      5 plt.plot(history.history['loss'], label='loss')
+      6 #plt.ylim([0.5,1.5])
+
+NameError: name 'history' is not defined
+
+live:valentin.gilet_1
+13/06/2022 14:58:16
+[1655125041] Utilisateur invité: NameError                                 Traceback (most recent call last)
+
+ in ()
+      2 plt.subplot(121)
+      3 plt.title('Loss')
+----> 4 plt.plot(history.history['val_loss'], label='val_loss')
+      5 plt.plot(history.history['loss'], label='loss')
+      6 #plt.ylim([0.5,1.5])
+
+NameError: name 'history' is not defined
+
+<<< ça doit venir du nom que tu as donné à la variable utilisée pour "model.fit"
+
+guest:62df875e-24f3-4c3e-b9c2-5b9825825eef
+13/06/2022 14:58:19
+A l'étape précédente mes epoch n'on pas la même taille: Epoch 1/5
+1875/1875. alors que j'ai bien rentrer les memes valeurs
+
+guest:958650b9-41f8-4e4c-8d46-8f350c588398
+13/06/2022 15:00:58
+Effectivement, mais j'ai une autre erreur maintenant
+
+guest:958650b9-41f8-4e4c-8d46-8f350c588398
+13/06/2022 15:01:15
+TypeError                                 Traceback (most recent call last)
+
+ in ()
+      2 plt.subplot(121)
+      3 plt.title('Loss')
+----> 4 plt.plot(model.fit['val_loss'], label='val_loss')
+      5 plt.plot(model.fit['loss'], label='loss')
+      6 #plt.ylim([0.5,1.5])
+
+TypeError: 'method' object is not subscriptable
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 15:02:15
+
+16551253354648:guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a8:guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a
+
+guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a
+13/06/2022 15:02:26
+16551253466398:guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 15:02:38
+comment on redémarre proprment?
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 15:03:06
+merci!
+
+guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a
+13/06/2022 15:03:27
+non
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 15:03:29
+me concernant, 'ai téléchargé le fichier dans le chat et tout marche
+
+guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a
+13/06/2022 15:03:44
+oui ça persiste
+
+guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a
+13/06/2022 15:04:16
+TypeError                                 Traceback (most recent call last)
+
+ in ()
+      2 plt.subplot(121)
+      3 plt.title('Loss')
+----> 4 plt.plot(model.fit['val_loss'], label='val_loss')
+      5 plt.plot(model.fit['loss'], label='loss')
+      6 #plt.ylim([0.5,1.5])
+
+TypeError: 'method' object is not subscriptable
+live:felix.mercier13/06/2022 15:06:14
+plt.figure(figsize=(15,6))
+plt.subplot(121)
+plt.title('Loss')
+plt.plot(history.history['val_loss'], label='val_loss')
+plt.plot(history.history['loss'], label='loss')
+#plt.ylim([0.5,1.5])
+plt.grid()
+plt.legend()
+plt.subplot(122)
+plt.title('Accuracy')
+plt.plot(history.history['val_acc'], label='val_acc')
+plt.plot(history.history['acc'], label='acc')
+#plt.ylim([0,1])
+plt.grid()
+plt.legend()
+
+lycilph99
+13/06/2022 15:07:00
+(y)
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 15:07:00
+oui
+
+guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+13/06/2022 15:07:02
+oui
+
+florian.wernert.professional
+13/06/2022 15:07:04
+tout bon pour moi
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 15:07:05
+c'est bon
+
+guest:91df7a4c-d219-4016-bbc1-a3e92599daa4
+13/06/2022 15:07:06
+ok
+
+guest:6d65461f-fc00-489e-8928-f1d12b3e1a7f
+13/06/2022 15:07:06
+oui
+
+guest:b8641e87-4e09-4d52-b8c7-f09c9e090198
+13/06/2022 15:07:11
+oui
+
+live:6fb9dbe9e007f769
+13/06/2022 15:07:13
+ok
+
+guest:34ab4d80-ba1e-4606-91b5-98be56eed43c
+13/06/2022 15:07:14
+oui
+
+live:.cid.41681cf2c2a9cef3
+13/06/2022 15:07:14
+oui
+
+guest:752c0a69-809d-4164-828c-903ec7a7ee99
+13/06/2022 15:10:09
+L'intelligence peut être artificielle... la bêtise doit rester humaine.
+
+pejmanrasti
+13/06/2022 15:11:48
+oui
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 15:11:28
+Test accuracy: 0.9268 est ce que cela signifie bien que 92 % des data ont été correctement classées ?
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 15:12:46
+(y)
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 15:12:49
+ok
+
+guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a
+13/06/2022 15:12:49
+ok
+
+lycilph99
+13/06/2022 15:12:51
+ok
+
+guest:b03729d6-7b40-406e-9e6f-88817b9ec99e
+13/06/2022 15:12:54
+ok
+
+guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+13/06/2022 15:12:54
+(ok)
+
+guest:752c0a69-809d-4164-828c-903ec7a7ee99
+13/06/2022 15:12:57
+On reprend à 3H20.
+
+guest:b9bbd665-6fe4-4991-babf-38e41f23d55e
+13/06/2022 15:14:02
+spontanément je regarde les images et me demande comment la confusion est possible. Faisant moi-même les manips, c'est surement une information à prendre en compte
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 15:19:26
+
+16551263662178:guest:eb9140d0-4b37-41e0-a1d1-6894739fe7998:guest:eb9140d0-4b37-41e0-a1d1-6894739fe799
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 15:19:43
+
+16551263832038:guest:c457bb89-1dd6-4d27-9cbb-b2be195756008:guest:c457bb89-1dd6-4d27-9cbb-b2be19575600
+
+guest:c457bb89-1dd6-4d27-9cbb-b2be19575600
+13/06/2022 15:19:52
+
+16551263927748:guest:c457bb89-1dd6-4d27-9cbb-b2be19575600
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 15:24:41
+
+16551266817788:guest:55a2e8ce-fefc-4537-9075-0e432b978f268:guest:55a2e8ce-fefc-4537-9075-0e432b978f26
+
+guest:55a2e8ce-fefc-4537-9075-0e432b978f26
+13/06/2022 15:24:51
+
+16551266917148:guest:55a2e8ce-fefc-4537-9075-0e432b978f26
+
+guest:752c0a69-809d-4164-828c-903ec7a7ee99
+13/06/2022 15:27:54
+StackOverflow
+
+bartuk380
+13/06/2022 15:27:12
+vous avez tous accès au canal "au-secours" du slack
+
+bartuk380
+13/06/2022 15:29:42
+stack overflow: regarder les réponses avec le plus de "coches vertes" qui seront le plus souvent les plus pertinentes
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 15:32:57
+
+16551271772798:guest:b3381a70-8656-4651-843e-b1fc34499df38:guest:b3381a70-8656-4651-843e-b1fc34499df3
+
+live:valentin.gilet_1
+13/06/2022 15:33:04
+
+live:valentin.gilet_1
+13/06/2022 15:33:04
+voilà ce que l'ordinateur voit pour mnist lorsqu'on "étale" les images
+IMG_05
+
+bartuk380
+13/06/2022 15:33:21
+IMG_06
+
+vince2505
+13/06/2022 15:33:33
+Rajouter des features peut résoudre le pb avec seulement 2 neurones 
+
+guest:752c0a69-809d-4164-828c-903ec7a7ee99
+13/06/2022 15:34:00
+Fewshot learning
+
+vince2505
+13/06/2022 15:34:08
+Rajouter des features en entrées
+
+guest:752c0a69-809d-4164-828c-903ec7a7ee99
+13/06/2022 15:34:12
+Light CNN
+
+florian.wernert.professional
+13/06/2022 15:34:29
+ça serait pas parce que il y a 2 classes sous jacentes plus "attractives" point de vue descente de gradient que les 2 classes intérieur/extérieur ?
+
+pejmanrasti
+13/06/2022 15:34:52
+[1655127253] David: Light CNN
+<<< MobileNet, shuffelNet
+
+bartuk380
+13/06/2022 15:37:31
+visualiser votre réseau 
+
+bartuk380
+13/06/2022 15:37:32
+modelDeepFC.summary()
+
+guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a
+13/06/2022 15:40:32
+non
+
+live:6fb9dbe9e007f769
+13/06/2022 15:40:34
+ok
+
+guest:b3381a70-8656-4651-843e-b1fc34499df3
+13/06/2022 15:40:42
+ok
+
+guest:6d65461f-fc00-489e-8928-f1d12b3e1a7f
+13/06/2022 15:40:45
+ok
+
+guest:b8641e87-4e09-4d52-b8c7-f09c9e090198
+13/06/2022 15:40:49
+ok
+
+florian.wernert.professional
+13/06/2022 15:40:54
+ok
+
+lycilph99
+13/06/2022 15:41:01
+(y)
+
+bartuk380
+13/06/2022 15:41:54
+Paramètres du notebook (CPU/GPU) modifier/edit
+
+live:.cid.6d4da05a5aab1e02
+13/06/2022 15:42:21
+[1655127632] Claire Boulogne: non
+
+<<< ? c'est quoi le souci
+
+guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a
+13/06/2022 15:42:35
+NameError                                 Traceback (most recent call last)
+
+ in ()
+      8           epochs=5, batch_size=32,
+      9           verbose=1,
+---> 10           callbacks=[TensorBoardColabCallback(tbcDeepFC)])
+
+NameError: name 'tbcDeepFC' is not defined
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 15:43:58
+ça marche
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 15:43:59
+oui c'est bon
+
+guest:34ab4d80-ba1e-4606-91b5-98be56eed43c
+13/06/2022 15:44:07
+ok
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 15:44:39
+Le batch est toujours un multiple de 8 : plus efficace ?
+
+live:.cid.6d4da05a5aab1e02
+13/06/2022 15:45:22
+[1655127880] Romain Le Bars: Le batch est toujours un multiple de 8 : plus efficace ?
+
+<<< des puissances de 2 ! 
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 15:45:47
+ok c'est qqchose à ne pas choisir au hasard . Ok perfect
+
+pejmanrasti
+13/06/2022 15:46:07
+https://arxiv.org/abs/1804.07612
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 15:46:21
+oui
+
+guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+13/06/2022 15:46:26
+oui
+
+guest:b9bbd665-6fe4-4991-babf-38e41f23d55e
+13/06/2022 15:46:28
+c'est interressant de constater que nous disposons tous du même code et pourtant ça ne marche pas pareil...je pense que c'est une des limitations à la dissémination de ces techniques
+
+live:.cid.6d4da05a5aab1e02
+13/06/2022 15:47:08
+[1655127948] Romain Le Bars: ok c'est qqchose à ne pas choisir au hasard . Ok perfect
+
+<<< vous pouvez prendre tout ce que vous voulez, les puissance de 2, c'est juste recommandé :)
+
+guest:b9bbd665-6fe4-4991-babf-38e41f23d55e
+13/06/2022 15:48:42
+yessss quand on test plein de trucs il faut être prudent comment on l'installe
+
+guest:b9bbd665-6fe4-4991-babf-38e41f23d55e
+13/06/2022 15:49:22
+en effet en principe sur collab ç ane devarit pas poser de problème
+
+guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a
+13/06/2022 15:49:55
+oui
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 15:50:42
+
+16551282429098:guest:59f51092-34e2-48f3-96f2-4fe4714061f78:guest:59f51092-34e2-48f3-96f2-4fe4714061f7
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 15:51:26
+
+16551282860548:guest:0e6a36df-0501-4f9b-95bf-4edbdf55f5ad8:guest:0e6a36df-0501-4f9b-95bf-4edbdf55f5ad
+
+guest:752c0a69-809d-4164-828c-903ec7a7ee99
+13/06/2022 15:51:51
+
+PLAY
+
+bartuk380
+13/06/2022 15:53:10
+un drive pour déposer vos notebooks problématiques: https://drive.google.com/drive/folders/1TIuEUimR65sIqSD83wsOnOygOI45f5xE?usp=sharing
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 15:53:51
+pas de souci
+
+guest:6d65461f-fc00-489e-8928-f1d12b3e1a7f
+13/06/2022 15:53:50
+oui
+
+guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a
+13/06/2022 15:53:59
+oui
+
+guest:b3381a70-8656-4651-843e-b1fc34499df3
+13/06/2022 15:53:59
+ok
+
+florian.wernert.professional
+13/06/2022 15:54:00
+oui
+
+guest:b9bbd665-6fe4-4991-babf-38e41f23d55e
+13/06/2022 15:54:00
+yep
+
+guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+13/06/2022 15:54:02
+ok
+
+guest:b8641e87-4e09-4d52-b8c7-f09c9e090198
+13/06/2022 15:54:04
+ok
+
+guest:b03729d6-7b40-406e-9e6f-88817b9ec99e
+13/06/2022 15:54:05
+ok
+
+guest:34ab4d80-ba1e-4606-91b5-98be56eed43c
+13/06/2022 15:54:06
+oui
+
+guest:0e6a36df-0501-4f9b-95bf-4edbdf55f5ad
+13/06/2022 16:05:33
+Latent space
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 16:12:04
+Les noyaux de convolution ne sont pas choisis par l'utilisateur mais dans une liste c'est bien ça ?
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 16:12:36
+ok merci
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 16:15:04
+comment sont gérés les pixels des bords?
+
+guest:c457bb89-1dd6-4d27-9cbb-b2be19575600
+13/06/2022 16:15:44
+Le filtre ne passe pas sur les bords
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 16:15:55
+OK merci
+
+live:.cid.6d4da05a5aab1e02
+13/06/2022 16:17:36
+IMG_07
+
+live:daniel.sage_2
+13/06/2022 16:19:16
+https://theaisummer.com/receptive-field/
+
+live:valentin.gilet_1
+13/06/2022 16:19:28
+https://fr.wikipedia.org/wiki/Loi_de_Weber-Fechner
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 16:20:35
+
+16551300357718:guest:ae0f3c82-5558-48c2-96b7-7abd5269fcb58:guest:ae0f3c82-5558-48c2-96b7-7abd5269fcb5
+
+pejmanrasti
+13/06/2022 16:25:12
+Conv2D(32,(3,3),padding="same",)
+
+guest:b3381a70-8656-4651-843e-b1fc34499df3
+13/06/2022 16:25:47
+je me suis mis en gpu pour cela 
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 16:26:32
+moi aussi 10 et 6 s avec GPU
+
+guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+13/06/2022 16:26:40
+c'est ok
+
+guest:b3381a70-8656-4651-843e-b1fc34499df3
+13/06/2022 16:26:42
+ca marche ok
+
+guest:34ab4d80-ba1e-4606-91b5-98be56eed43c
+13/06/2022 16:26:44
+c'est bon
+
+guest:b03729d6-7b40-406e-9e6f-88817b9ec99e
+13/06/2022 16:26:48
+c'est ok 
+
+live:6fb9dbe9e007f769
+13/06/2022 16:26:48
+c'est bon
+
+guest:6d65461f-fc00-489e-8928-f1d12b3e1a7f
+13/06/2022 16:26:49
+ça marche
+
+guest:b8641e87-4e09-4d52-b8c7-f09c9e090198
+13/06/2022 16:26:51
+ça marche
+
+florian.wernert.professional
+13/06/2022 16:26:51
+ça tourne
+
+guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a
+13/06/2022 16:27:02
+il réfléchit
+
+bartuk380
+13/06/2022 16:33:38
+pour la dernière cellule
+
+bartuk380
+13/06/2022 16:33:39
+# Prediction of classes of a single image
+randomImg = 42 # change this value to test a new image
+img=X_test[randImg,:,:,:]
+img = np.array(img).reshape(-1, 28, 28, 1)
+output = modelCNN.predict_classes(img)
+print('The predicted label is: ',output[0])
+print('The real label is: ',y_test[randomImg])
+plt.imshow(img.reshape(28,28))
+plt.show()
+
+guest:0c262061-af90-4764-ab9e-7aa4cf31d01f
+13/06/2022 16:36:42
+4 aussi
+
+guest:34ab4d80-ba1e-4606-91b5-98be56eed43c
+13/06/2022 16:36:42
+j'ai la même
+
+guest:b03729d6-7b40-406e-9e6f-88817b9ec99e
+13/06/2022 16:36:45
+4 aussi 
+guest:6d65461f-fc00-489e-8928-f1d12b3e1a7f
+13/06/2022 16:36:47
+pareil
+
+guest:af07c895-6899-4655-be0e-f17039d5a18a
+13/06/2022 16:37:02
+c'est bon
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 16:37:06
+ok
+
+live:sonia.ouali_1
+13/06/2022 16:37:11
+c'est bon pour moi
+
+herearii.metuarea5
+13/06/2022 16:37:17
+900
+
+guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+13/06/2022 16:37:17
+idem
+
+live:valentin.gilet_1
+13/06/2022 16:37:20
+randImg = np.random.randint(1000)
+
+live:sonia.ouali_1
+13/06/2022 16:37:23
+4 aussi
+
+herearii.metuarea5
+13/06/2022 16:37:31
+900 ça ne marche pas
+
+live:valentin.gilet_1
+13/06/2022 16:37:32
+Pour avoir un nombre aléatoire à chaque fois
+
+live:mathieu.fallet
+13/06/2022 16:37:46
+on voit la probabilité ?
+
+pejmanrasti
+13/06/2022 16:38:28
+matrix = metrics.confusion_matrix(y_test.argmax(axis=1), y_pred.argmax(axis=1))
+
+pejmanrasti
+13/06/2022 16:39:33
+sklearn.metrics.confusion_matrix()
+
+live:.cid.6d4da05a5aab1e02
+13/06/2022 16:39:44
+from sklearn import metrics
+
+herearii.metuarea5
+13/06/2022 16:41:54
+il faut peut etre écrire ca
+
+herearii.metuarea5
+13/06/2022 16:41:55
+ici=modelCNN.predict_classes(X_test)
+
+herearii.metuarea5
+13/06/2022 16:42:07
+confusion_matrix(y_test, list(ici))
+
+live:.cid.6d4da05a5aab1e02
+13/06/2022 16:43:49
+IMG_09
+
+live:valentin.gilet_1
+13/06/2022 16:44:55
+from sklearn import metrics
+import seaborn as sns
+matrix = metrics.confusion_matrix(Y_test.argmax(axis=1), modelCNN.predict_classes(X_test))
+sns.heatmap(matrix/matrix.max(), annot=True)
+
+bartuk380
+13/06/2022 16:47:50
+image 8 est une mauvaise prediction pourmoi
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 16:48:48
+5 / 5
+
+live:.cid.41681cf2c2a9cef3
+13/06/2022 16:49:07
+plein sont fausses
+
+live:6fb9dbe9e007f769
+13/06/2022 16:49:08
+pareil
+
+guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+13/06/2022 16:49:10
+predit 5 pour un 9. MAis elle ressemble plus à un 6
+
+pejmanrasti
+13/06/2022 16:49:12
+predicted_classes = modelCNN.predict_classes(X_test) # Prediction of classes
+incorrect_indices = np.nonzero(predicted_classes != y_test)[0]
+
+plt.figure()
+for i, incorrect in enumerate(incorrect_indices[:6]):
+    plt.subplot(3,3,i+1)
+    plt.imshow(X_val[incorrect].reshape(28,28), cmap='gray', interpolation='none')
+    plt.title("Predicted {}, Class {}".format(predicted_classes[incorrect], y_val[incorrect]))
+    
+plt.tight_layout()
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 16:49:12
+340 --> 5
+
+live:.cid.41681cf2c2a9cef3
+13/06/2022 16:49:49
+oui
+
+bartuk380
+13/06/2022 16:51:00
+ajouter incorrect_indices pour voir l'indice des mauvaises images
+
+live:valentin.gilet_1
+13/06/2022 16:50:01
+[1655131496] Valentin Gilet: from sklearn import metrics
+import seaborn as sns
+matrix = metrics.confusion_matrix(Y_test.argmax(axis=1), modelCNN.predict_classes(X_test))
+sns.heatmap(matrix/matrix.max(), annot=True)
+
+<<< from sklearn import metrics
+import seaborn as sns
+matrix = metrics.confusion_matrix(Y_test.argmax(axis=1), modelCNN.predict_classes(X_test))
+sns.heatmap(matrix/matrix.max(), annot=True, cmap="YlGnBu", fmt='.2f')
+
+Heatmap plus claire !
+
+live:.cid.41681cf2c2a9cef3
+13/06/2022 16:53:27
+au risque d'abuser est il possible d'avoir le rang de l'image en plus?
+
+bartuk380
+13/06/2022 16:53:42
+predicted_classes = modelCNN.predict_classes(X_test) # Prediction of classes
+incorrect_indices = np.nonzero(predicted_classes != y_test)[0]
+
+plt.figure()
+for i, incorrect in enumerate(incorrect_indices[:6]):
+    plt.subplot(3,3,i+1)
+    plt.imshow(X_val[incorrect].reshape(28,28), cmap='gray', interpolation='none')
+    plt.title("Predicted {}, Class {}".format(predicted_classes[incorrect], y_val[incorrect]))
+    
+plt.tight_layout()
+# liste des images mal reconnues
+incorrect_indices
+
+live:.cid.41681cf2c2a9cef3
+13/06/2022 16:53:51
+pour le code de Pejam
+
+live:.cid.41681cf2c2a9cef3
+13/06/2022 16:54:10
+yes merci
+
+live:.cid.41681cf2c2a9cef3
+13/06/2022 16:56:09
+Bertrand, ce n'est pas exhaustif si ?
+
+live:6fb9dbe9e007f769
+13/06/2022 16:56:33
+si on veut enregistrer ce notebook modifié quelle option d'enregistrement faut-il choisir   dans le menu"fichier" ?
+
+live:6fb9dbe9e007f769
+13/06/2022 16:57:15
+ok !
+
+guest:6d65461f-fc00-489e-8928-f1d12b3e1a7f
+13/06/2022 16:57:37
+Je pense cerner beaucoup mieux certaines notions qui étaient "obscures", merci! Je dois partir, à demain!
+
+guest:b8641e87-4e09-4d52-b8c7-f09c9e090198
+13/06/2022 16:58:40
+merci, à demain
+
+guest:b3381a70-8656-4651-843e-b1fc34499df3
+13/06/2022 16:58:19
+à demain
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 16:59:03
+
+16551323432388:guest:e8f9d7e1-1c03-44a8-9c45-0265eecf81fe8:guest:e8f9d7e1-1c03-44a8-9c45-0265eecf81fe
+
+live:sonia.ouali_1
+13/06/2022 16:59:08
+A demain 
+
+guest:e8f9d7e1-1c03-44a8-9c45-0265eecf81fe
+13/06/2022 16:59:12
+
+16551323522758:guest:e8f9d7e1-1c03-44a8-9c45-0265eecf81fe
+
+guest:e8f9d7e1-1c03-44a8-9c45-0265eecf81fe
+13/06/2022 16:59:12
+
+16551323522928:guest:e8f9d7e1-1c03-44a8-9c45-0265eecf81fe
+
+guest:4019405d-4bea-483d-85fd-1fccadd42180
+13/06/2022 16:59:12
+Merci a demain !
+
+florian.wernert.professional
+13/06/2022 16:59:13
+merci à demain !
+
+live:sonia.ouali_1
+13/06/2022 16:59:14
+merci pour cette journée
+
+live:daniel.sage_2
+13/06/2022 16:59:15
+merci à demain
+
+guest:b03729d6-7b40-406e-9e6f-88817b9ec99e
+13/06/2022 16:59:15
+Merci ! A demain 
+
+guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+13/06/2022 16:59:15
+merci aux formateurs
+
+live:mathieu.michel976
+13/06/2022 16:59:19
+Merci, à demain
+
+vince250513/06/2022 16:59:21
+Merci, à demain.
+
+live:6fb9dbe9e007f769
+13/06/2022 16:59:24
+A demain!! merci à tous!
+
+guest:62df875e-24f3-4c3e-b9c2-5b9825825eef
+13/06/2022 16:59:24
+Bonne soirée, à demain
+
+guest:cdd08ecf-ad70-45f3-b9ae-51c5481fd84a
+13/06/2022 16:59:26
+Merci ! à demain :-)
+
+live:juliette.moreau
+13/06/2022 16:59:26
+A demain
+
+breuilly.marine
+13/06/2022 16:57:14
+bonne soir
+
+live:jessica.perez.sancho
+13/06/2022 16:59:28
+merci!!
+
+guest:057a84dc-8fc5-4655-8975-22ef47d5c8b3
+13/06/2022 16:59:27
+Bonne soirée
+
+live:.cid.41681cf2c2a9cef3
+13/06/2022 16:59:32
+Merci à tous et à demain
+
+guest:ae0f3c82-5558-48c2-96b7-7abd5269fcb5
+13/06/2022 16:59:41
+bravo Felix. A demain tout le monde
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 16:59:48
+
+16551323884148:guest:cd9354b7-7ef1-45d8-b053-45f63c07f5cb8:guest:cd9354b7-7ef1-45d8-b053-45f63c07f5cb
+
+live:abadoual_2
+13/06/2022 16:59:49
+Merci a demain
+
+guest:cd9354b7-7ef1-45d8-b053-45f63c07f5cb
+13/06/2022 16:59:59
+
+16551323990618:guest:cd9354b7-7ef1-45d8-b053-45f63c07f5cb
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 17:00:21
+
+16551324218398:guest:7afe599d-c00d-4412-9998-902ffa4f4d6d8:guest:7afe599d-c00d-4412-9998-902ffa4f4d6d
+
+guest:7afe599d-c00d-4412-9998-902ffa4f4d6d
+13/06/2022 17:00:39
+
+16551324395248:guest:7afe599d-c00d-4412-9998-902ffa4f4d6d
+
+guest:0e6a36df-0501-4f9b-95bf-4edbdf55f5ad
+13/06/2022 17:00:51
+
+PLAY
+
+
+guest:7afe599d-c00d-4412-9998-902ffa4f4d6d
+13/06/2022 17:00:59
+Merci à tous !!
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 17:03:22
+
+16551326022158:guest:52d180da-0a74-4b03-a2bb-72b5303c32508:guest:52d180da-0a74-4b03-a2bb-72b5303c3250
+
+guest:52d180da-0a74-4b03-a2bb-72b5303c3250
+13/06/2022 17:03:33
+
+16551326134958:guest:52d180da-0a74-4b03-a2bb-72b5303c3250
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+13/06/2022 17:24:47
+
+16551338878048:guest:61f57f94-bf68-42af-b792-d5a149de7cbb8:guest:61f57f94-bf68-42af-b792-d5a149de7cbb
+
+guest:61f57f94-bf68-42af-b792-d5a149de7cbb
+13/06/2022 17:25:05
+
+16551339053618:guest:61f57f94-bf68-42af-b792-d5a149de7cbb
+
+live:6fb9dbe9e007f769
+13/06/2022 17:57:36
+
+END DAY 1
+
+
+START DAY 2
+
+
+guest:c6fc0fc9-da63-4efe-8b84-3b178fd63092
+14/06/2022 10:24:43
+Bonjour à tous !
+
+bartuk380
+14/06/2022 10:34:16
+on enregistre?
+
+live:jessica.perez.sancho
+14/06/2022 10:47:43
+mais comment on peut faire la representation dense avec l'outil online?
+
+breuilly.marine
+14/06/2022 10:49:49
+
+breuilly.marine
+14/06/2022 10:49:49
+Jessi il y a un bloc "vector length" qui permet de définir la partie FC
+IMG_10
+
+live:jessica.perez.sancho
+14/06/2022 10:52:16
+ahh, merci
+
+bartuk380
+14/06/2022 10:53:44
+https://github.com/HenriquesLab/ZeroCostDL4Mic/wiki/Glossary
+
+bartuk380
+14/06/2022 10:55:09
+et un francias de l'académie https://www.cnil.fr/fr/intelligence-artificielle/glossaire-ia
+
+bartuk380
+14/06/2022 10:55:53
+https://datafranca.org/wiki/Accueil
+
+guest:84cfd72c-5bc5-4cdb-8fc3-9512c6536c28
+14/06/2022 10:56:07
+https://peltarion.com/knowledge-center/documentation/glossary
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 10:57:07
+
+16551970276178:guest:d296b253-77a9-4371-bee9-dd4337c054d88:guest:d296b253-77a9-4371-bee9-dd4337c054d8
+
+guest:d296b253-77a9-4371-bee9-dd4337c054d8
+14/06/2022 10:57:25
+16551970453438:guest:d296b253-77a9-4371-bee9-dd4337c054d8
+
+breuilly.marine
+14/06/2022 10:55:05
+Deep Learning Cheat Sheet | Tips & Tricks - GlobalSQA
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 10:58:42
+https://www.ilastik.org/
+
+breuilly.marine
+14/06/2022 11:03:23
+BioImage.IO
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 11:10:47
+HD5 format
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 11:10:54
+Ilastik plugin in Fiji
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 11:22:07
+https://biaflows-sandbox.neubias.org/#/
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 11:27:33
+
+16551988537168:guest:21acbabe-de3a-46de-8b83-9ac8c6a6c8b68:guest:21acbabe-de3a-46de-8b83-9ac8c6a6c8b6
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 11:28:17
+https://www.openmicroscopy.org/omero/
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 11:35:23
+
+16551993231208:guest:977f2005-1643-4e38-a0a1-8ce61e379c0f8:guest:977f2005-1643-4e38-a0a1-8ce61e379c0f
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 11:43:49
+https://docs.google.com/presentation/d/1ff6T2KhrSm1NSI3LQCn5IWcE41GKevNmvlES4KBnfXk/edit#slide=id.p
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 11:45:48
+Zooniverse
+
+bartuk380
+14/06/2022 11:46:43
+le GT MIIA va produire un document sur les outils d'annotations pour les microscopies si vous n'êtes pas trop impatients
+
+bartuk380
+14/06/2022 11:46:52
+MAIIA
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 11:48:09
+Magic wand is nother but region growing pointed by Carole in her talk
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 11:48:24
+SLIC
+
+bartuk380
+14/06/2022 11:48:26
+active contour is available in ITK-SNAP
+
+guest:13a88e3f-684d-4de9-bd78-d611c7e79ddc
+14/06/2022 11:48:39
+Yes I confirm
+
+bartuk380
+14/06/2022 11:49:53
+even in 3D
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 11:50:32
+Data annotation trials with DATA_TORCH 
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 11:51:57
+Global wheat data challenge
+
+live:6fb9dbe9e007f769
+14/06/2022 11:54:27
+merci à tous. 
+
+guest:c6fc0fc9-da63-4efe-8b84-3b178fd63092
+14/06/2022 11:54:28
+thanks !
+
+live:sonia.ouali_1
+14/06/2022 11:54:29
+Merci 
+
+florian.wernert.professional
+14/06/2022 11:54:30
+merci beaucoup :)
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 11:54:31
+
+16552004721508:guest:bcbc61ab-3544-4e16-a25a-f0de0c1b654a8:guest:bcbc61ab-3544-4e16-a25a-f0de0c1b654a
+
+guest:3bd0d397-51e7-41b2-82d1-42aac00b6105
+14/06/2022 11:54:32
+Thanks ! 
+
+guest:33ad4738-7a0b-44c4-a72c-f4ee0f1d5846
+14/06/2022 11:54:31
+Merci aux speakers! bon appétit
+
+guest:b8f08a89-fd14-4a61-be04-92a9a89369b2
+14/06/2022 11:54:33
+thank you to all the speakers
+
+guest:c1276aea-4030-4a14-b152-87439abe2b91
+14/06/2022 11:54:42
+Merci
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 11:54:45
+bon appétit
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 11:55:04
+
+16552005049188:guest:3c76ecd9-eb37-438d-ba79-b3dbd06fe6e28:guest:3c76ecd9-eb37-438d-ba79-b3dbd06fe6e2
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 11:57:19
+
+PLAY
+
+bartuk380
+14/06/2022 13:01:10
+Digital Sreeni https://www.youtube.com/channel/UC34rW-HtPJulxr5wp2Xa04w
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 13:03:57
+1000 instances
+
+bartuk380
+14/06/2022 13:04:14
+couvre l'analyse d'image en python dont ML et DL. 273 vidéos à rattraper :-)
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 13:04:29
+
+16552046693068:guest:d6105546-9ac1-4642-8544-c7f1a0105bf48:guest:d6105546-9ac1-4642-8544-c7f1a0105bf4
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 13:06:28
+
+16552047884748:guest:ff3cf8b5-fbfb-4efe-8807-a575e5236f708:guest:ff3cf8b5-fbfb-4efe-8807-a575e5236f70
+
+live:daniel.sage_2
+14/06/2022 13:07:17
+"Cellpose was trained on a new dataset of highly-varied images of cells, containing over 70,000 segmented objects"
+
+guest:249a10e1-e3c6-449a-93cc-c33c8a2e842b
+14/06/2022 13:07:16
+Il y a une variante maintenant pour les cellules allongées qui s'appelle omnipose
+
+bartuk380
+14/06/2022 13:07:27
+The Cellpose default model (“cyto”) was trained on 540 images of cells and objects with 1 or 2 channels (if the image had a nuclear channel).
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 13:08:01
+
+16552048811238:guest:0e862445-5e3a-4d3c-b91d-fb653838e47d8:guest:0e862445-5e3a-4d3c-b91d-fb653838e47d
+
+guest:0e862445-5e3a-4d3c-b91d-fb653838e47d
+14/06/2022 13:08:11
+
+16552048912488:guest:0e862445-5e3a-4d3c-b91d-fb653838e47d
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 13:09:29
+
+16552049694918:guest:97cbd6d9-07a4-4f94-a2ad-2edeaed753958:guest:97cbd6d9-07a4-4f94-a2ad-2edeaed75395
+
+guest:97cbd6d9-07a4-4f94-a2ad-2edeaed75395
+14/06/2022 13:09:45
+
+16552050377158:guest:97cbd6d9-07a4-4f94-a2ad-2edeaed75395
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 13:10:47
+
+16552050470628:guest:7de5c9ae-522b-4294-897e-0dcad2c3a8868:guest:7de5c9ae-522b-4294-897e-0dcad2c3a886
+
+guest:97cbd6d9-07a4-4f94-a2ad-2edeaed75395
+14/06/2022 13:14:59
+il me semble que Trackmate permet d'explorer ces questions
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 13:16:06
+Transformer
+
+pejmanrasti
+14/06/2022 13:16:35
+https://arxiv.org/abs/2111.06091
+
+pejmanrasti
+14/06/2022 13:17:11
+https://arxiv.org/abs/1706.03762
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 13:22:02
+Valentin  get ready
+
+bartuk380
+14/06/2022 13:24:30
+garbage in garbage out
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 13:24:59
+Hyperstack FIJI 
+
+florian.wernert.professional
+14/06/2022 13:25:14
+stack sorter dans fiji aussi
+
+florian.wernert.professional
+14/06/2022 13:25:20
+sur un hyperstack déjà existant
+
+bartuk380
+14/06/2022 13:25:28
+Re-order Hyperstack
+
+guest:c94075a3-4165-4b2a-9f98-3a6bc6158dbe
+14/06/2022 13:25:54
+Napari ....
+
+live:sonia.ouali_1
+14/06/2022 13:29:36
+c'est bon
+
+live:6fb9dbe9e007f769
+14/06/2022 13:29:47
+ok
+
+guest:b8f08a89-fd14-4a61-be04-92a9a89369b2
+14/06/2022 13:29:51
+ok
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 13:30:14
+oki
+
+bartuk380
+14/06/2022 13:30:29
+Gérer les multi-dimensional arrays ("images") dans python https://github.com/RMS-DAIM/Python-for-Bioimage-Analysis
+
+guest:d6105546-9ac1-4642-8544-c7f1a0105bf4
+14/06/2022 13:30:32
+ok
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 13:30:32
+ok
+
+live:mathieu.michel976
+14/06/2022 13:30:35
+ok
+
+guest:333a359a-c47f-4214-9a6a-92aabab5c686
+14/06/2022 13:30:38
+ok
+
+florian.wernert.professional
+14/06/2022 13:30:43
+c'est bon
+
+guest:21acbabe-de3a-46de-8b83-9ac8c6a6c8b6
+14/06/2022 13:30:45
+ok
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 13:31:21
+ok
+
+live:.cid.41681cf2c2a9cef3
+14/06/2022 13:31:43
+oui
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 13:32:15
+
+16552063356258:legoffwork8:legoffwork
+
+lycilph99
+14/06/2022 13:32:50
+ok
+
+guest:3482d0da-4f3c-4ba5-a8ba-26f563bf0b77
+14/06/2022 13:32:51
+ok
+
+guest:f9692efc-eaaf-460c-8e5e-0f6cc87f2fc9
+14/06/2022 13:32:53
+ok
+
+live:.cid.41681cf2c2a9cef3
+14/06/2022 13:33:04
+cela pose-t-il un problème si le tout n'est pas à la racine mais dans un sous dossier?
+
+guest:cf3d90dc-2dbe-433e-8016-79ee3248be75
+14/06/2022 13:34:22
+ou sont les donnees ?
+
+live:6fb9dbe9e007f769
+14/06/2022 13:36:32
+c'est bon
+
+legoffwork
+14/06/2022 13:36:35
+ok
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 13:36:38
+ok 
+
+guest:b8f08a89-fd14-4a61-be04-92a9a89369b2
+14/06/2022 13:36:39
+tout bon
+
+guest:333a359a-c47f-4214-9a6a-92aabab5c686
+14/06/2022 13:36:41
+ok
+
+lycilph99
+14/06/2022 13:36:44
+ok
+
+live:.cid.41681cf2c2a9cef3
+14/06/2022 13:36:45
+ok
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 13:36:46
+ok
+
+live:jessica.perez.sancho
+14/06/2022 13:36:47
+ok
+
+florian.wernert.professional
+14/06/2022 13:36:58
+les data uploadent
+
+live:felix.mercier
+14/06/2022 13:37:23
+[1655206385] Jean-Daniel Fauny: cela pose-t-il un problème si le tout n'est pas à la racine mais dans un sous dossier?
+
+<<< Non, il faudra juste faire des ajustements d'adresses dans le code.
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 13:38:16
+
+16552066968008:anna.kreshuk8:anna.kreshuk
+
+bartuk380
+14/06/2022 13:38:09
+click droit sur le dossier dans la fenetre de gauche pour récuperer le chemin d'un dossier/fichier au cas où
+
+live:sonia.ouali_1
+14/06/2022 13:46:16
+je pense il faut aussi supprimer fc2021 dans la cellule plus haut
+
+live:felix.mercier
+14/06/2022 13:52:15
+Hésitez pas à envoyer les messages d'erreurs dans le canal au-secours du slack
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 13:56:49
+est-que je dois recommencer si mon notebook et fichier .zip sont dans un sous-dossier ?
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 13:57:13
+ok
+
+vince250514/06/2022 13:59:08
+Ne vaut il pas mieux faire un drag and drop avec les répertoires dézippés ?
+
+guest:0e862445-5e3a-4d3c-b91d-fb653838e47d
+14/06/2022 13:59:22
+https://drive.google.com/
+
+vince2505
+14/06/2022 13:59:24
+ah ok
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 14:00:13
+
+16552080135468:guest:3265602a-9adb-44d7-bada-811b9706949f8:guest:3265602a-9adb-44d7-bada-811b9706949f
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 14:01:42
+
+16552081028048:guest:56102b5c-1c8a-4ab5-a4ec-401f3ed443228:guest:56102b5c-1c8a-4ab5-a4ec-401f3ed44322
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 14:05:40
+moi c'est bon!
+
+legoffwork
+14/06/2022 14:05:42
+ok
+
+guest:d296b253-77a9-4371-bee9-dd4337c054d8
+14/06/2022 14:05:43
+c'est ok
+
+guest:c1276aea-4030-4a14-b152-87439abe2b91
+14/06/2022 14:05:44
+c'esst bon
+
+live:6fb9dbe9e007f769
+14/06/2022 14:05:46
+ok
+
+guest:333a359a-c47f-4214-9a6a-92aabab5c686
+14/06/2022 14:05:46
+c'est bon
+
+guest:b8f08a89-fd14-4a61-be04-92a9a89369b2
+14/06/2022 14:05:46
+ok
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 14:05:48
+ok
+
+vince250514/06/2022 14:05:49
+ok
+
+guest:3482d0da-4f3c-4ba5-a8ba-26f563bf0b77
+14/06/2022 14:05:50
+ok
+
+florian.wernert.professional
+14/06/2022 14:05:50
+fini l'upload c'est bon
+
+lycilph99
+14/06/2022 14:05:52
+ok
+
+guest:f9692efc-eaaf-460c-8e5e-0f6cc87f2fc9
+14/06/2022 14:05:54
+Ok
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 14:05:55
+ok
+
+live:jessica.perez.sancho
+14/06/2022 14:05:57
+OUI, C'EST BON
+
+guest:7de5c9ae-522b-4294-897e-0dcad2c3a886
+14/06/2022 14:06:20
+ok je vois les images (display)
+
+live:felix.mercier
+14/06/2022 14:07:38
+Lien de l'autre canal pour Katia 
+
+live:felix.mercier
+14/06/2022 14:07:40
+https://join.skype.com/MXxQ4vPSfblX
+
+florian.wernert.professional
+14/06/2022 14:08:25
+(tout bon jusqu'au display des 3 images)
+
+vince2505
+14/06/2022 14:09:12
+Moi je n'ai pas de message d'erreur après le pip et çà semble marcher du 1er coup
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 14:09:55
+
+16552085955398:guest:cf3d90dc-2dbe-433e-8016-79ee3248be758:guest:cf3d90dc-2dbe-433e-8016-79ee3248be75
+
+vince2505
+14/06/2022 14:11:28
+Le GPU était sélectionné par défaut
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 14:11:46
+^par défaut pour moi aussi
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 14:11:55
+
+16552087156288:guest:2621696b-d661-4fa6-822d-2ee0e9b24c6e8:guest:2621696b-d661-4fa6-822d-2ee0e9b24c6e
+
+live:6fb9dbe9e007f769
+14/06/2022 14:11:59
+ok aussi
+
+guest:2621696b-d661-4fa6-822d-2ee0e9b24c6e
+14/06/2022 14:12:05
+
+16552087250008:guest:2621696b-d661-4fa6-822d-2ee0e9b24c6e
+
+guest:2621696b-d661-4fa6-822d-2ee0e9b24c6e
+14/06/2022 14:12:05
+
+16552087250158:guest:2621696b-d661-4fa6-822d-2ee0e9b24c6e
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 14:14:21
+ok
+
+legoffwork
+14/06/2022 14:14:22
+ok
+
+guest:d296b253-77a9-4371-bee9-dd4337c054d8
+14/06/2022 14:14:45
+ok
+
+guest:21acbabe-de3a-46de-8b83-9ac8c6a6c8b6
+14/06/2022 14:14:49
+ok
+
+guest:333a359a-c47f-4214-9a6a-92aabab5c686
+14/06/2022 14:14:52
+ok
+
+guest:97cbd6d9-07a4-4f94-a2ad-2edeaed75395
+14/06/2022 14:15:46
+ls data train / Validation , OK jusque là
+
+guest:333a359a-c47f-4214-9a6a-92aabab5c686
+14/06/2022 14:15:57
+oui
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 14:16:23
+train validation OK
+
+legoffwork
+14/06/2022 14:16:46
+DATADIR c'est le folder de travail de la machine ?
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 14:16:49
+ok
+
+live:6fb9dbe9e007f769
+14/06/2022 14:16:50
+train validation ok
+
+guest:b8f08a89-fd14-4a61-be04-92a9a89369b2
+14/06/2022 14:16:55
+ok
+
+legoffwork
+14/06/2022 14:17:06
+ok
+
+guest:97cbd6d9-07a4-4f94-a2ad-2edeaed75395
+14/06/2022 14:19:37
+j'avais galérer avec ZerCost et du coup je me suis conformé à l'organisation des données tel que suggéré
+
+guest:97cbd6d9-07a4-4f94-a2ad-2edeaed75395
+14/06/2022 14:21:04
+yes
+
+live:mathieu.michel976
+14/06/2022 14:21:25
+Le jeu de données de validation est pas un peu petit ?
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+14/06/2022 14:21:35
+SI
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 14:22:23
+
+16552093434748:guest:fe506d55-fd92-4b8a-ac90-f90aed7d7c308:guest:fe506d55-fd92-4b8a-ac90-f90aed7d7c30
+
+guest:c1276aea-4030-4a14-b152-87439abe2b91
+14/06/2022 14:23:02
+Comment on peut faire cette compensation ?
+
+bartuk380
+14/06/2022 14:24:24
+manuellement en sélectionnant les données, plus de data augmentation sur une classe
+
+guest:21acbabe-de3a-46de-8b83-9ac8c6a6c8b6
+14/06/2022 14:25:00
+oui
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 14:25:01
+oui
+
+live:6fb9dbe9e007f769
+14/06/2022 14:25:05
+oui
+
+live:.cid.41681cf2c2a9cef3
+14/06/2022 14:25:06
+oui
+
+guest:333a359a-c47f-4214-9a6a-92aabab5c686
+14/06/2022 14:25:07
+oui
+
+guest:fe506d55-fd92-4b8a-ac90-f90aed7d7c30
+14/06/2022 14:25:08
+oui
+
+florian.wernert.professional
+14/06/2022 14:25:11
+oui
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 14:25:12
+oui
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 14:25:17
+oui pas de souci 
+
+guest:b8f08a89-fd14-4a61-be04-92a9a89369b2
+14/06/2022 14:25:24
+ok
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 14:27:21
+
+16552096411138:guest:58a21236-d918-4b37-93c8-b3659c58d1678:guest:58a21236-d918-4b37-93c8-b3659c58d167
+
+guest:58a21236-d918-4b37-93c8-b3659c58d167
+14/06/2022 14:27:35
+
+16552096556248:guest:58a21236-d918-4b37-93c8-b3659c58d167
+
+legoffwork
+14/06/2022 14:28:00
+la catégorie correspondant à ces images est dans y, c'est ca ?
+
+live:.cid.6d4da05a5aab1e02
+14/06/2022 14:28:22
+[1655209681] Loïc Le Goff: la catégorie correspondant à ces images est dans y, c'est ca ?
+
+<<< oui
+live:6fb9dbe9e007f769
+14/06/2022 14:32:24
+ok
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 14:32:29
+ok
+
+guest:21acbabe-de3a-46de-8b83-9ac8c6a6c8b6
+14/06/2022 14:32:28
+ok
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 14:32:31
+ok
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 14:32:39
+ok
+
+guest:21acbabe-de3a-46de-8b83-9ac8c6a6c8b6
+14/06/2022 14:32:43
+on dira :-)
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 14:32:47
+
+16552099671758:guest:c15fa15a-3022-4b95-968c-cff247bb1b928:guest:c15fa15a-3022-4b95-968c-cff247bb1b92
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 14:33:02
+
+16552099824428:guest:7eb8d78a-7688-4b2e-a0c9-c722f7782dfe8:guest:7eb8d78a-7688-4b2e-a0c9-c722f7782dfe
+
+guest:7eb8d78a-7688-4b2e-a0c9-c722f7782dfe
+14/06/2022 14:33:15
+
+16552099958078:guest:7eb8d78a-7688-4b2e-a0c9-c722f7782dfe
+
+florian.wernert.professional
+14/06/2022 14:33:31
+on avait pas déjà redimensionné ?
+
+florian.wernert.professional
+14/06/2022 14:33:47
+2 cellules plus haut
+
+florian.wernert.professional
+14/06/2022 14:33:50
+cv.resize
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 14:33:51
+
+16552100317298:guest:7773b95b-c951-4811-a7bb-38a695a97e8b8:guest:7773b95b-c951-4811-a7bb-38a695a97e8b
+
+legoffwork
+14/06/2022 14:33:53
+si l'image n'a pas la bonne taille initiallement, reshape utilise une interpolation pour donner la bonne taille ?
+
+florian.wernert.professional
+14/06/2022 14:33:58
+oui
+
+legoffwork
+14/06/2022 14:34:07
+OK
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 14:34:36
+pourquoi -1 en 1er paramètre?
+
+legoffwork
+14/06/2022 14:34:40
+il faut tout de meme faire attention vis à vis de la resolution optique !
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 14:35:16
+ok, merci
+
+live:valentin.gilet_1
+14/06/2022 14:38:32
+plt.figure(figsize=(15,5))
+
+guest:fe506d55-fd92-4b8a-ac90-f90aed7d7c30
+14/06/2022 14:39:12
+je n'ai pas les mêmes images, est-ce normal ?
+
+guest:97cbd6d9-07a4-4f94-a2ad-2edeaed75395
+14/06/2022 14:39:22
+moi je ne vois que les plantes
+
+guest:fe506d55-fd92-4b8a-ac90-f90aed7d7c30
+14/06/2022 14:39:27
+ok
+
+guest:97cbd6d9-07a4-4f94-a2ad-2edeaed75395
+14/06/2022 14:39:58
+si je relance je vais voir autrechose
+
+guest:21acbabe-de3a-46de-8b83-9ac8c6a6c8b6
+14/06/2022 14:40:02
+Dans la vidéo de ce matin, on disait que ça ne marchait pas très bien quand on faisait des à-plats ?
+
+guest:21acbabe-de3a-46de-8b83-9ac8c6a6c8b6
+14/06/2022 14:40:17
+C'est des images naturelles ?
+
+guest:21acbabe-de3a-46de-8b83-9ac8c6a6c8b6
+14/06/2022 14:41:41
+ok, merci !
+
+guest:7de5c9ae-522b-4294-897e-0dcad2c3a886
+14/06/2022 14:44:32
+pourquoi ce choix (3,3) ?
+
+guest:333a359a-c47f-4214-9a6a-92aabab5c686
+14/06/2022 14:47:03
+les deux dernieres conv sont de la même taille? 
+
+legoffwork
+14/06/2022 14:47:09
+mais j'imagine que ca n'est pas la peine d'analyser des échelles supérieures à la taille du weed dans ce cas précis
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 14:48:45
+tout va bien
+
+florian.wernert.professional
+14/06/2022 14:48:49
+ok
+
+legoffwork
+14/06/2022 14:52:04
+j'ai lancé 2 fois le training et l'accuracy monte et descend. A la fin du 2eme training (et après être resté à 0.98 très longtemps) c'est brutalement tombé à 0.5 et ca y reste sur les 10 dernières epochs
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 14:52:55
+Comment choisit-on le nombre de neurone pour le 1er dense?
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+14/06/2022 14:53:01
+Loïc c'est normal pour cet exempl qui est très instable.
+
+legoffwork
+14/06/2022 14:53:14
+ok
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 14:53:48
+512
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 14:53:51
+oui
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 14:54:28
+les 512
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 14:54:19
+d'accord, on avait la même chose hier
+
+guest:58a21236-d918-4b37-93c8-b3659c58d167
+14/06/2022 14:55:01
+Est-ce que c'est possible après l'entrainement de sélectionner l'epoch avec les meilleurs résultats ?
+
+live:felix.mercier
+14/06/2022 14:55:36
+[1655211303] Rémy Flores-Flores: Est-ce que c'est possible après l'entrainement de sélectionner l'epoch avec les meilleurs résultats ?
+
+<<< oui, on verra ça dans le TP suivant. Ca s'appelle le earlystopping
+
+florian.wernert.professional
+14/06/2022 14:58:51
+j'ai une erreur dans cette cellule
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 14:59:40
+
+16552115803158:guest:729426c8-5962-4243-9cf8-f20036cfff5d8:guest:729426c8-5962-4243-9cf8-f20036cfff5d
+
+guest:729426c8-5962-4243-9cf8-f20036cfff5d
+14/06/2022 14:59:55
+
+16552115959338:guest:729426c8-5962-4243-9cf8-f20036cfff5d
+
+guest:21acbabe-de3a-46de-8b83-9ac8c6a6c8b6
+14/06/2022 15:00:08
+ça tourne
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 15:00:18
+
+ValueError: Failed to find data adapter that can handle input: , ( containing values of types {""})
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 15:00:24
+erreur chez moi aussi
+
+guest:fe506d55-fd92-4b8a-ac90-f90aed7d7c30
+14/06/2022 15:00:32
+pareil
+
+florian.wernert.professional
+14/06/2022 15:00:47
+ValueError: Failed to find data adapter that can handle input: , ( containing values of types {""})
+
+lycilph99
+14/06/2022 15:01:56
+pareil
+
+guest:7de5c9ae-522b-4294-897e-0dcad2c3a886
+14/06/2022 15:01:59
+pareil
+
+live:felix.mercier
+14/06/2022 15:02:01
+Moi aussi
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 15:02:21
+pas pour moi :-0
+
+guest:97cbd6d9-07a4-4f94-a2ad-2edeaed75395
+14/06/2022 15:02:36
+moi, j'arrive pas à éditer le code
+
+guest:333a359a-c47f-4214-9a6a-92aabab5c686
+14/06/2022 15:02:38
+no problem
+
+live:felix.mercier
+14/06/2022 15:03:21
+[1655211757] Fabrice: moi, j'arrive pas à éditer le code
+
+<<< peux tu en dire plus  ? Qu'elle est le problème exactement ?
+
+guest:7de5c9ae-522b-4294-897e-0dcad2c3a886
+14/06/2022 15:03:24
+petit y ?
+
+live:.cid.41681cf2c2a9cef3
+14/06/2022 15:03:01
+C'est bon pour moi aussi contre toute attente ;) 
+
+guest:7eb8d78a-7688-4b2e-a0c9-c722f7782dfe
+14/06/2022 15:03:57
+ça tourne pour moi
+
+lycilph99
+14/06/2022 15:04:03
+tjrs probleme
+
+lycilph99
+14/06/2022 15:04:11
+apres restart
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 15:02:42
+moi non plus, ça tourne
+
+guest:7eb8d78a-7688-4b2e-a0c9-c722f7782dfe
+14/06/2022 15:04:23
+0.5 pour l'accuracy au 2eme essai
+
+guest:7773b95b-c951-4811-a7bb-38a695a97e8b
+14/06/2022 15:04:31
+J'ai lancer sans modification, sa tourne et j'ai une accuracy à 0.94
+
+florian.wernert.professional
+14/06/2022 15:05:05
+après avoir relancé et reexecuté les cellules et commenté le TensorBoard c'est bon l'entrainement a démarré
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 15:05:09
+Val acc à 0.5556
+
+guest:7de5c9ae-522b-4294-897e-0dcad2c3a886
+14/06/2022 15:05:20
+ça passe après conversion de y en np.array
+
+legoffwork
+14/06/2022 15:05:21
+ca converge toujours exactement au meme accuracy (0.6064), meme apèrs avoir reshufflé les données. C'est normal ?
+
+live:jessica.perez.sancho
+14/06/2022 15:05:44
+moi viens vers acc: 0.944 :S
+
+live:6fb9dbe9e007f769
+14/06/2022 15:05:45
+val acc 0.6667
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 15:06:26
+val acc 0.5000
+
+legoffwork
+14/06/2022 15:06:54
+IMG_11
+
+guest:fe506d55-fd92-4b8a-ac90-f90aed7d7c30
+14/06/2022 15:06:54
+oui
+
+live:felix.mercier
+14/06/2022 15:06:58
+y = np.asarray(y) avant le history devrait marcher
+
+guest:7de5c9ae-522b-4294-897e-0dcad2c3a886
+14/06/2022 15:07:05
+non finalement encore une erreur
+
+florian.wernert.professional
+14/06/2022 15:07:08
+pb résolu pour moi
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 15:07:25
+moi en redémarrant ça a fonctionné
+
+live:felix.mercier
+14/06/2022 15:07:27
+y = np.asarray( y ) sans les espaces
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 15:08:53
+"relancer 3 fois" - juste la cellule history = model.fit ?
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 15:09:15
+d'acc
+
+florian.wernert.professional
+14/06/2022 15:09:42
+ça n'a pas convergé
+
+florian.wernert.professional
+14/06/2022 15:09:50
+oscille entre0.4 et 0.95
+
+guest:21acbabe-de3a-46de-8b83-9ac8c6a6c8b6
+14/06/2022 15:11:00
+Pour l'accuracy j'ai 2 lignes parfaitement parallèles et horizontales
+
+lycilph99
+14/06/2022 15:11:50
+ça marche
+
+guest:fe506d55-fd92-4b8a-ac90-f90aed7d7c30
+14/06/2022 15:12:08
+pas moi
+
+lycilph99
+14/06/2022 15:12:26
+restart 2 fois et avec y = np.asarray( y )
+
+guest:fe506d55-fd92-4b8a-ac90-f90aed7d7c30
+14/06/2022 15:13:39
+tu change qq chose dans la cellule history ?
+
+bartuk380
+14/06/2022 15:13:58
+ca marche  apres "Runtime/disconnect and delmete runtime"
+
+live:felix.mercier
+14/06/2022 15:14:00
+history = model.fit(
+    X, y, 
+    validation_data=(X_val, y_val),
+    epochs=100, batch_size=32,
+    verbose=1)
+	
+guest:fe506d55-fd92-4b8a-ac90-f90aed7d7c30
+14/06/2022 15:14:07
+c'est tout, rien au niv du y
+
+bartuk380
+14/06/2022 15:14:12
+puis y = np.array(y)
+
+bartuk380
+14/06/2022 15:14:15
+et y_val = np.array(y_val)
+
+guest:fe506d55-fd92-4b8a-ac90-f90aed7d7c30
+14/06/2022 15:14:46
+ça marche pas
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 15:15:24
+moi 1 seul notebook
+
+live:felix.mercier
+14/06/2022 15:18:18
+[1655212487] Katia: ça marche pas
+
+<<< Tu veux que je t'appelle pour résoudre ça ?
+
+guest:fe506d55-fd92-4b8a-ac90-f90aed7d7c30
+14/06/2022 15:18:32
+oui !!!
+
+bartuk380
+14/06/2022 15:18:34
+attention au version de tensorflow que vous utilisez dans le notebook(deep imaheJ 1.X)
+
+legoffwork
+14/06/2022 15:19:23
+l'application d'un modèle est bcp, bcp moins gourmande en calcul que l'entrainement. Mais dans quelle mesure cela nécessite tout de même un GPU ?
+
+live:felix.mercier
+14/06/2022 15:19:36
+[1655212712] Katia: oui !!!
+
+<<< Tu peux suivre le lien que je t'ai envoyé sur slack tout à l'heure
+
+bartuk380
+14/06/2022 15:19:56
+par exemple stardist sans GPU
+
+bartuk380
+14/06/2022 15:20:27
+cellpose mieux vaut avoir une GPU pour être plus rapide
+
+guest:7de5c9ae-522b-4294-897e-0dcad2c3a886
+14/06/2022 15:22:03
+oui pause café
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 15:22:24
+une petite pause oui :)
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+14/06/2022 15:22:38
+On revient 15H30
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 15:25:14
+;)
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 15:25:14
+IMG_12
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 15:28:56
+
+16552133368848:guest:1766673a-6510-46f1-b359-76eaaeab438e8:guest:1766673a-6510-46f1-b359-76eaaeab438e
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+14/06/2022 15:32:19
+Valentin on passe la main à Pejman pour l'hyperparamétrage.
+
+live:valentin.gilet_1
+14/06/2022 15:33:27
+Ok
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+14/06/2022 15:33:34
+Et Valentin Gilet tu reprends la main ensuite pour qu'on termine sur le data augmentation.
+
+live:valentin.gilet_1
+14/06/2022 15:33:43
+Très bien !
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 15:34:31
+doit-on voir quelque chose à l'écran?
+
+live:valentin.gilet_1
+14/06/2022 15:34:41
+Oui !
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 15:34:54
+je suis en vue présentateur
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+14/06/2022 15:35:11
+Vue contenue
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 15:35:15
+ok, désolé c'est bon
+
+legoffwork
+14/06/2022 15:36:10
+ok
+
+guest:97cbd6d9-07a4-4f94-a2ad-2edeaed75395
+14/06/2022 15:36:12
+yep
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 15:36:10
+ok pour moi
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 15:36:13
+ok
+
+florian.wernert.professional
+14/06/2022 15:36:15
+ok
+
+guest:333a359a-c47f-4214-9a6a-92aabab5c686
+14/06/2022 15:36:15
+yes
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 15:36:41
+ok
+
+pejmanrasti
+14/06/2022 15:36:47
+https://drive.google.com/file/d/1y23EXriLLlBvAAujOFcXFoPL0lwY2RVv/view?usp=sharing
+
+guest:249a10e1-e3c6-449a-93cc-c33c8a2e842b
+14/06/2022 15:37:25
+Pour sauver un modèle stardist entraîné avec tensorflow2 afin de l'utiliser dans Fiji :
+
+guest:249a10e1-e3c6-449a-93cc-c33c8a2e842b
+
+14/06/2022 15:37:28
+https://github.com/stardist/stardist/issues/90
+
+florian.wernert.professional
+14/06/2022 15:38:14
+c'est ok en créant un lien
+
+legoffwork
+14/06/2022 15:38:16
+un instant
+
+guest:333a359a-c47f-4214-9a6a-92aabab5c686
+14/06/2022 15:38:17
+ok
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 15:38:22
+ok
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 15:38:31
+
+16552139119068:guest:46d058d0-bfa0-46b2-af43-4f0268683a1a8:guest:46d058d0-bfa0-46b2-af43-4f0268683a1a
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 15:39:19
+il faut cliquer sur le dossier en haut à droite
+
+florian.wernert.professional
+14/06/2022 15:39:22
+the link leads here
+
+pejmanrasti
+14/06/2022 15:39:20
+https://drive.google.com/file/d/1y23EXriLLlBvAAujOFcXFoPL0lwY2RVv/view?usp=sharing
+
+florian.wernert.professional
+14/06/2022 15:39:23
+
+florian.wernert.professional
+14/06/2022 15:39:43
+but you can add a link to your drive from here
+IMG_13
+
+live:mathieu.michel976
+14/06/2022 15:41:25
+ok
+
+legoffwork
+14/06/2022 15:41:26
+ok
+
+live:sonia.ouali_1
+14/06/2022 15:41:26
+ok
+
+live:6fb9dbe9e007f769
+14/06/2022 15:41:28
+ok
+
+live:.cid.41681cf2c2a9cef3
+14/06/2022 15:41:29
+ok
+
+guest:58a21236-d918-4b37-93c8-b3659c58d167
+14/06/2022 15:41:32
+ok
+
+live:jessica.perez.sancho
+14/06/2022 15:41:33
+ok
+
+live:sonia.ouali_1
+14/06/2022 15:43:14
+there is a mistake in the name
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+14/06/2022 15:43:35
+colon et non cloon
+
+guest:1766673a-6510-46f1-b359-76eaaeab438e
+14/06/2022 15:46:47
+FileNotFoundError                         Traceback (most recent call last)
+ in ()
+      1 DATADIR_train = "data_cloon_binary/train"
+----> 2 CATEGORIES_train = os.listdir(DATADIR_train)
+      3 print(CATEGORIES_train)
+
+FileNotFoundError: [Errno 2] No such file or directory: 'data_cloon_binary/train'
+
+legoffwork
+14/06/2022 15:46:55
+I had an error at hte last cell
+
+live:sonia.ouali_1
+14/06/2022 15:47:22
+our file has a different name
+
+live:sonia.ouali_1
+14/06/2022 15:47:32
+the one in slack
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 15:47:34
+pouvez vous me donner le path pour unzip les donnees?
+
+live:valentin.gilet_1
+14/06/2022 15:47:47
+Vérifier que toutes les cellules sont exécutées
+
+legoffwork
+14/06/2022 15:47:32
+'DATADIR_test' is not defined
+
+legoffwork
+14/06/2022 15:47:48
+'DATADIR_test' is not defined
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 15:49:18
+root/TP/
+
+guest:1766673a-6510-46f1-b359-76eaaeab438e
+14/06/2022 15:49:58
+ok
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 15:50:31
+tu pourrais copier ici?
+
+pejmanrasti
+14/06/2022 15:50:51
+https://drive.google.com/file/d/1y23EXriLLlBvAAujOFcXFoPL0lwY2RVv/view?usp=sharing
+
+live:sonia.ouali_1
+14/06/2022 15:50:59
+!unzip -q "/content/gdrive/My Drive/data_colon_binary.zip"
+
+guest:7085719a-405f-436a-ac8f-b2cebadff64c
+14/06/2022 15:51:18
+il ne trouve pas
+
+live:sonia.ouali_1
+14/06/2022 15:51:39
+essaye !unzip -q "/content/gdrive/My Drive/data_cloon_binary.zip"
+
+pejmanrasti
+14/06/2022 15:51:40
+!unzip -q "/content/gdrive/My Drive/TP/data_colon_binary.zip"
+
+live:valentin.gilet_1
+14/06/2022 15:52:01
+cloon note colon /!\ 
+
+live:valentin.gilet_1
+14/06/2022 15:52:05
+not*
+
+guest:5b0817a1-d849-4c5f-b744-076b1f762718
+14/06/2022 15:52:32
+ok pour moi
+
+guest:1766673a-6510-46f1-b359-76eaaeab438e
+14/06/2022 15:53:27
+ File "", line 1
+    unzip -q "/content/gdrive/My Drive/data_cloon_binary.zip
+                                                            ^
+SyntaxError: EOL while scanning string literal
+
+live:valentin.gilet_1
+14/06/2022 15:53:50
+il manque des guillemets ?
+
+live:sonia.ouali_1
+14/06/2022 15:53:54
+there is a space in biginning
+
+live:sonia.ouali_1
+14/06/2022 15:53:56
+maybe
+
+pejmanrasti
+14/06/2022 15:54:26
+!unzip gdrive/My\ Drive/TP/data_cloon_binary.zip
+
+guest:97cbd6d9-07a4-4f94-a2ad-2edeaed75395
+14/06/2022 15:55:08
+classical talks about path (grinningfacewithbigeyes)
+
+guest:1766673a-6510-46f1-b359-76eaaeab438e
+14/06/2022 15:55:24
+ok
+
+guest:46d058d0-bfa0-46b2-af43-4f0268683a1a
+14/06/2022 15:57:32
+how do you choose the step value ?
+
+guest:46d058d0-bfa0-46b2-af43-4f0268683a1a
+14/06/2022 15:58:18
+any reason to choose 16, here ?
+
+bartuk380
+14/06/2022 15:58:46
+Pour afficher ce fichier, allez à  :https://login.skype.com/login/sso?go=webclient.xmm&docid=0-weu-d5-0700e071c0c3e363a422bce5d957d950
+
+bartuk380
+14/06/2022 15:59:14
+ok thanks
+
+bartuk380
+14/06/2022 15:58:46
+fast ok but at the cost of accuracy?
+
+live:.cid.41681cf2c2a9cef3
+14/06/2022 16:05:08
+is 3 epochs enought to select the best combination?
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+14/06/2022 16:06:57
+Data set and problem taken from https://www.nature.com/articles/s41598-019-56583-9
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+14/06/2022 16:10:43
+no token :-))
+
+bartuk380
+14/06/2022 16:13:04
+
+PLAY
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 16:16:40
+
+16552162007838:guest:e6106b76-419d-4eba-a018-9bc1989b742c8:guest:e6106b76-419d-4eba-a018-9bc1989b742c
+
+guest:e6106b76-419d-4eba-a018-9bc1989b742c
+14/06/2022 16:16:49
+
+16552162096148:guest:e6106b76-419d-4eba-a018-9bc1989b742c
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 16:20:13
+IMG_14
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 16:20:13
+ça ça arrive et c'est normal? (le pic)
+
+guest:58a21236-d918-4b37-93c8-b3659c58d167
+14/06/2022 16:20:22
+Est-ce que l'on peut mettre le nombre Conv2D/Max pooling comme un hyper paramètre ?
+
+legoffwork
+14/06/2022 16:22:18
+j'observe une grande différence dans la structure de mon best modèle et celui de Pejman, avec les mêmes données à priori. 
+
+legoffwork
+14/06/2022 16:22:31
+j'observe une grande différence dans la structure de mon best modèle et celui de Pejman, avec les mêmes données à priori. 
+
+legoffwork
+14/06/2022 16:23:48
+et résultats similaires
+
+guest:58a21236-d918-4b37-93c8-b3659c58d167
+14/06/2022 16:24:21
+Est-ce que l'on va aborder comment faire les mosaiques pour le deep learning ?
+
+live:felix.mercier
+14/06/2022 16:24:22
+[1655216539] Loïc Le Goff: j'observe une grande différence dans la structure de mon best modèle et celui de Pejman, avec les mêmes données à priori. 
+
+<<< On a utilisé peu d'essai pour trouver les paramètres du réseau, cela peut entrainer des fortes différences d'architectures. Cela explique les différences de résultats. Pejman faisait remarquer qu'il faut faire lus d'essaie pour avoir plus de confiance en l'optimalité du réseau.
+
+breuilly.marine
+14/06/2022 16:24:51
+Deep learning with real world data sets: 
+https://youtu.be/UIE3PcIPShY
+
+legoffwork
+14/06/2022 16:24:55
+ok
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 16:24:56
+ok
+
+guest:58a21236-d918-4b37-93c8-b3659c58d167
+14/06/2022 16:27:33
+ok merci
+
+breuilly.marine
+14/06/2022 16:21:17
+Deep learning with real world data sets: 
+https://youtu.be/UIE3PcIPShY
+
+guest:a1a70acb-f7cf-4a62-838c-b8bf2a3ac4c2
+14/06/2022 16:27:57
+ok merci!
+
+legoffwork
+14/06/2022 16:28:32
+ok
+
+florian.wernert.professional
+14/06/2022 16:29:48
+top !
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+14/06/2022 16:30:33
+https://www.youtube.com/watch?v=HHlYUdWV4Vk
+
+live:6fb9dbe9e007f769
+14/06/2022 16:32:42
+oui
+
+guest:3482d0da-4f3c-4ba5-a8ba-26f563bf0b77
+14/06/2022 16:32:44
+yes
+
+legoffwork
+14/06/2022 16:35:37
+on peut fermer l'autre notebook ?
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+14/06/2022 16:37:21
+Turner, R., Eriksson, D., McCourt, M., Kiili, J., Laaksonen, E., Xu, Z., & Guyon, I. (2021, August). Bayesian optimization is superior to random search for machine learning hyperparameter tuning: Analysis of the black-box optimization challenge 2020. In NeurIPS 2020 Competition and Demonstration Track (pp. 3-26). PMLR.
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+14/06/2022 16:37:18
+Des approches alternatives à celles de présentées par Pejman pour l'optimisation sont les approches Bayésiennes
+
+guest:7de5c9ae-522b-4294-897e-0dcad2c3a886
+14/06/2022 16:41:05
+pourquoi faire un shift si la convolution est insensible à cette operation ?
+
+live:felix.mercier
+14/06/2022 16:49:29
+IMG_15
+
+breuilly.marine
+14/06/2022 16:48:27
+all the available models in keras can be found here: Keras Applications
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype1
+4/06/2022 16:52:25
+
+16552183452708:guest:67a1c171-36fd-4bb6-973d-b42b2d1e46708:guest:67a1c171-36fd-4bb6-973d-b42b2d1e4670
+
+guest:67a1c171-36fd-4bb6-973d-b42b2d1e4670
+14/06/2022 16:52:39
+
+16552183597248:guest:67a1c171-36fd-4bb6-973d-b42b2d1e4670
+
+guest:46d058d0-bfa0-46b2-af43-4f0268683a1a
+14/06/2022 16:56:28
+Je dois vous laisser, bonne soirée et à demain ! Merci :-)
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 16:58:41
+
+16552187210248:guest:3ac3f0ae-5f45-4e60-be8e-44df22fd0c0b8:guest:3ac3f0ae-5f45-4e60-be8e-44df22fd0c0b
+
+guest:3ac3f0ae-5f45-4e60-be8e-44df22fd0c0b
+14/06/2022 16:58:52
+
+16552187324468:guest:3ac3f0ae-5f45-4e60-be8e-44df22fd0c0b
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 16:59:13
+
+16552187535278:guest:f05fa9a9-c22c-463f-8501-3f3f7dcf4d4f8:guest:f05fa9a9-c22c-463f-8501-3f3f7dcf4d4f
+
+guest:f05fa9a9-c22c-463f-8501-3f3f7dcf4d4f
+14/06/2022 16:59:23
+
+16552187632468:guest:f05fa9a9-c22c-463f-8501-3f3f7dcf4d4f
+
+live:sonia.ouali_1
+14/06/2022 16:59:40
+bonne soirée a tous 
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+14/06/2022 16:59:55
+On t'a perdu thierry on se retrouve demain.
+
+live:6fb9dbe9e007f769
+14/06/2022 17:00:16
+Merci beaucoup.!!
+
+guest:97cbd6d9-07a4-4f94-a2ad-2edeaed75395
+14/06/2022 17:00:17
+bonne soirée à tous et merci
+
+guest:67a1c171-36fd-4bb6-973d-b42b2d1e4670
+14/06/2022 17:00:23
+Merci à tous, à demain
+
+live:felix.mercier
+14/06/2022 17:00:27
+Bonne soirée à toutes et tous
+
+legoffwork
+14/06/2022 17:00:30
+merci!
+
+guest:7eb8d78a-7688-4b2e-a0c9-c722f7782dfe
+14/06/2022 17:00:34
+merci aux formateurs
+
+guest:7773b95b-c951-4811-a7bb-38a695a97e8b
+14/06/2022 17:00:35
+Bonne soirée
+
+guest:58a21236-d918-4b37-93c8-b3659c58d167
+14/06/2022 17:00:35
+Merci, bonne soirée
+
+guest:3ac3f0ae-5f45-4e60-be8e-44df22fd0c0b
+14/06/2022 17:00:36
+Bonne soirée
+
+guest:e6106b76-419d-4eba-a018-9bc1989b742c
+14/06/2022 17:00:37
+merci
+
+live:6fb9dbe9e007f769
+14/06/2022 17:00:37
+bonne soirée, à demain!
+
+live:.cid.a7dc16913865d2df
+14/06/2022 17:00:38
+merci à demain
+
+florian.wernert.professional
+14/06/2022 17:00:38
+merci beaucoup
+
+guest:7eb8d78a-7688-4b2e-a0c9-c722f7782dfe
+14/06/2022 17:00:38
+bonne soirée
+
+live:abadoual_2
+14/06/2022 17:00:39
+A demain !
+
+florian.wernert.professional
+14/06/2022 17:00:42
+super journée
+
+breuilly.marine
+14/06/2022 16:58:28
+a demain
+
+guest:1766673a-6510-46f1-b359-76eaaeab438e
+14/06/2022 17:00:43
+bonne soiree
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 17:00:46
+
+16552188464428:guest:7b903047-98c9-4c6f-baa3-95be816ad3068:guest:7b903047-98c9-4c6f-baa3-95be816ad306
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype
+14/06/2022 17:00:48
+
+16552188489428:guest:58a21236-d918-4b37-93c8-b3659c58d1678:guest:58a21236-d918-4b37-93c8-b3659c58d167
+
+guest:50a8e89c-2869-4319-ae52-e0c50c103a62
+
+14/06/2022 17:00:53
+A demain
+
+live:.cid.41681cf2c2a9cef3
+14/06/2022 17:00:59
+bonne soirée
+
+guest:7b903047-98c9-4c6f-baa3-95be816ad306
+14/06/2022 17:01:01
+
+16552188616668:guest:7b903047-98c9-4c6f-baa3-95be816ad306
+
+live:.cid.41681cf2c2a9cef3
+14/06/2022 17:01:03
+merci
+
+bartuk380
+14/06/2022 17:02:04
+
+PLAY
+
+vince2505
+14/06/2022 17:11:54
+
+END DAY 2
+
+START DAY 3
+
+breuilly.marine
+15/06/2022 10:27:04
+bonjour!
+
+lycilph99
+15/06/2022 10:29:38
+Bonjour
+
+guest:6148ac3e-79d5-4e3b-93f7-4af0cad46605
+15/06/2022 10:29:36
+Bonjour
+
+guest:c5232954-e50d-4793-a2f4-931378a1ce7b
+
+15/06/2022 10:28:56
+Bonjour à tous !
+
+guest:bce15781-16fe-4586-8ff3-e3a3bd064201
+15/06/2022 10:31:13
+Moral Machine
+
+live:.cid.41681cf2c2a9cef3
+15/06/2022 10:31:53
+Hello à tous
+
+guest:bce15781-16fe-4586-8ff3-e3a3bd064201
+15/06/2022 10:31:58
+Hello World
+
+florian.wernert.professional
+15/06/2022 10:32:14
+en cas d'accident de voiture à conduite autonome vaut il mieux tuer un bébé ou 2 vieillards
+
+florian.wernert.professional
+15/06/2022 10:33:09
+en cas d'accident de voiture à conduite autonome vaut il mieux tuer un bébé ou 2 vieillards
+
+bartuk380
+15/06/2022 10:34:52
+je suis en train d'ajouter tout le monde
+
+breuilly.marine
+15/06/2022 10:37:07
+pour l'utilisation de DeepImageJ je n'ai pas réussi à importer de modèle, et je ne crois pas que Pejman ait montré comment l'importer.
+
+guest:eeaa4853-fe29-4ae0-852d-a0f8696731df
+15/06/2022 10:58:22
+excellent, c'est un truc qu'il faut que je fasse
+
+guest:785cf0c2-d587-4111-8a11-580e99046cef
+15/06/2022 11:00:20
+Merci pour le talk , est ce que c'est possible de partager la présentation ?:) 
+
+guest:6148ac3e-79d5-4e3b-93f7-4af0cad46605
+15/06/2022 11:01:55
+Les astuces de Bertrand pour installer le GPU m'intéresse, on pourra échanger ?
+
+bartuk380
+15/06/2022 11:02:39
+ca arrive
+
+bartuk380
+15/06/2022 11:07:35
+Pour afficher ce fichier, allez à  :https://login.skype.com/login/sso?go=webclient.xmm&docid=0-weu-d2-e1702e728f1df21fce9b2a9b4045d19a
+
+bartuk380
+15/06/2022 11:07:35
+très bioentôt plein d'infos sur le GT MAIIA https://rtmfm.cnrs.fr/gt/gt-maiia/
+
+breuilly.marine
+15/06/2022 11:06:31
+Merci Bertrand pour le lien pour le GT Maiia, est-ce possible de s'inscrire à la liste de diffusion?
+
+
+florian.wernert.professional
+15/06/2022 11:13:36
+Bertrand vous cherchez pas des postdocs dans le GT MAIIA par hasard ? (beamingfacewithsmilingeyes) Je commence à prospecter pour l'après-thèse
+
+guest:eeaa4853-fe29-4ae0-852d-a0f8696731df
+15/06/2022 11:05:34
+Hello @Biologeek
+
+IMG_16
+
+guest:bce15781-16fe-4586-8ff3-e3a3bd064201
+15/06/2022 11:22:19
+Nicolas est-ce que tu as 10 minutes cet après-midi ?
+
+guest:bc87f0c2-13e2-4c84-9fd6-c3c2d11a85e9
+15/06/2022 11:23:19
+14h c'est possible ?
+
+guest:bce15781-16fe-4586-8ff3-e3a3bd064201
+15/06/2022 11:46:37
+Basic, intermediate and Advanced
+
+guest:6148ac3e-79d5-4e3b-93f7-4af0cad46605
+15/06/2022 11:47:44
+voise2noise is basic ?
+
+guest:bce15781-16fe-4586-8ff3-e3a3bd064201
+15/06/2022 11:47:48
+Basic = DeepimageJ
+
+live:.cid.41681cf2c2a9cef3
+15/06/2022 11:48:18
+zerocost would be intermediate no?
+
+guest:999541f7-1c90-43b7-ab99-a0c66691a36a
+15/06/2022 11:49:57
+https://raw.githubusercontent.com/deephdc/deep-docs/master/source/_static/overview.pdf
+
+florian.wernert.professional
+15/06/2022 11:52:54
+thanks for morning interventions, very insightful
+
+guest:bc87f0c2-13e2-4c84-9fd6-c3c2d11a85e9
+15/06/2022 11:53:02
+image analysis plateforme ^^
+
+guest:97c429c1-cdd5-4897-8e6b-0ba40cad0d62
+15/06/2022 11:53:08
+thank you to all speakers
+
+guest:bc87f0c2-13e2-4c84-9fd6-c3c2d11a85e9
+15/06/2022 11:53:34
+de rien ^^ échange très plaisant ;)
+
+guest:bce15781-16fe-4586-8ff3-e3a3bd064201
+15/06/2022 11:54:17
+13H
+
+bilico1980
+15/06/2022 11:54:16
+https://www.egi.eu/egi-ace-open-call/
+
+guest:c5232954-e50d-4793-a2f4-931378a1ce7b
+15/06/2022 11:54:21
+merci !
+
+guest:785cf0c2-d587-4111-8a11-580e99046cef
+15/06/2022 11:54:23
+thanks ! 
+
+guest:e2fe87d5-a1d4-4364-a34e-d71b152c811f
+15/06/2022 11:54:25
+Merci pour les présentations!
+
+guest:97c429c1-cdd5-4897-8e6b-0ba40cad0d62
+15/06/2022 11:54:30
+bon appétit à tous !
+
+guest:bce15781-16fe-4586-8ff3-e3a3bd064201
+15/06/2022 11:54:56
+Bon appétit
+
+live:6fb9dbe9e007f769
+15/06/2022 11:55:01
+merci!
+
+19:d905ba21bdb549e3a58f76aac8a30d51@thread.skype15/06/2022 11:55:04
+
+16552869048428:guest:c5232954-e50d-4793-a2f4-931378a1ce7b8:guest:c5232954-e50d-4793-a2f4-931378a1ce7b
+
+live:.cid.41681cf2c2a9cef3
+15/06/2022 11:55:12
+bon app
+
+guest:bce15781-16fe-4586-8ff3-e3a3bd064201
+15/06/2022 11:56:36
+
+PLAY
+
+bilico1980
+15/06/2022 11:54:25
+in case you would like to apply
+
+bartuk380
+15/06/2022 12:02:55
+
+16552911310218:guest:af0beecb-188e-44a3-b433-565ae88f5d518:guest:af0beecb-188e-44a3-b433-565ae88f5d51
+
+live:.cid.41681cf2c2a9cef3
+15/06/2022 13:05:25
+Ils sortent de l'épreuve de philo.
+
+guest:4b44a35e-bb5f-46fa-99b7-8b56a51398e9
+15/06/2022 13:06:44
+oui
+
+guest:ca1ffc1e-27b1-4846-865d-a8b5197cfce7
+15/06/2022 13:06:52
+16552912123048:guest:ca1ffc1e-27b1-4846-865d-a8b5197cfce7
+
+guest:af0beecb-188e-44a3-b433-565ae88f5d51
+15/06/2022 13:06:53
+Oui
+
+live:sonia.ouali_1
+15/06/2022 13:07:00
+Moi aussi
+
+guest:ca1ffc1e-27b1-4846-865d-a8b5197cfce7
+15/06/2022 13:07:03
+Pareil
+
+guest:4b44a35e-bb5f-46fa-99b7-8b56a51398e9
+15/06/2022 13:07:01
+Too many people
+
+guest:f85dab32-d418-4e8c-bfff-28def73a0aea
+15/06/2022 13:07:27
+Pareil
+
+live:6fb9dbe9e007f769
+15/06/2022 13:07:28
+oui j'ia le même probleme (claire carrion
+
+guest:27db4715-b314-4a75-918e-518be1753cab
+15/06/2022 13:07:30
+On va donner un autre lien.
+
+guest:27db4715-b314-4a75-918e-518be1753cab
+15/06/2022 13:07:35
+Dans quelques minutes.
+
+guest:97c429c1-cdd5-4897-8e6b-0ba40cad0d62
+15/06/2022 13:07:43
+j'ai un cadre gris en haut à droite de la présentation, est-ce normal ?
+
+15/06/2022 13:06:29
+Impossible de re rejoindre le skype, quelqu'un d'autre a le même problème?
+
+florian.wernert.professional
+15/06/2022 13:10:12
+je me sers d'enhance sur des image de live-SIM, ça marche pas mal quand c'est entrainé sur un dataset bien affiné
+
+guest:27db4715-b314-4a75-918e-518be1753cab
+15/06/2022 13:12:11
+Félicia on arrive dans un instant.
+
+guest:27db4715-b314-4a75-918e-518be1753cab
+15/06/2022 13:12:26
+Todo sur la wishlist.
+
+guest:27db4715-b314-4a75-918e-518be1753cab
+15/06/2022 13:12:17
+Merci de faire patienter.
+
+guest:bc87f0c2-13e2-4c84-9fd6-c3c2d11a85e9
+15/06/2022 12:00:55
+https://openai.com/blog/dall-e/
+
+
+PLAY
+
+
+florian.wernert.professional
+15/06/2022 13:17:13
+https://join.skype.com/CnRll5pf7RqV
+
+live:.cid.41681cf2c2a9cef3
+15/06/2022 13:23:42
+Bertrand on est sur un autre lien lien Slack
+
+END DAY 3
